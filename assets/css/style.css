@@ -73,6 +73,19 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
   .profile, .profile.left { float: none; width: 70%; margin: 0 auto 20px; }
 }
 
+/* "Latest news" box (goes in the intro, under the paragraphs) */
+.news {
+  margin-top: 1.4rem;
+  padding: 0.9rem 1.2rem;
+  background: #e6ebd2;
+  border-left: 5px solid var(--link);
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+.news p { margin: 0 0 0.3rem; font-weight: bold; }
+.news ul { margin: 0; padding-left: 1.2rem; }
+.news li { margin: 0.2rem 0; }
+
 /* ------------------------------------------------------------------
    Landing layout  (_layouts/landing.html)
    ------------------------------------------------------------------ */
@@ -93,7 +106,7 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
   max-height: 420px;
   width: auto;
   height: auto;
-  margin: 0 auto;                 /* center it above the caption */
+  margin: 0 0 0 auto;                 /* center it above the caption */
   object-fit: cover;              /* crop to fill the box instead of squashing */
   object-position: center top;    /* keep the top of the photo (faces) when cropping */
   border-radius: 8px;

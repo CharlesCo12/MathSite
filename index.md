@@ -28,6 +28,16 @@ My research interest lies in the application of **model theoretic** techniques t
 
 This website contains a summary of my work as a mathematician including research, teaching and other activities. See my [CV]({{ '/CV/' | relative_url }}) page for a detailed summary. If you want to know more things about me, you can always check my [random]({{ '/random/' | relative_url }}) page to be surprised!
 
+<div class="news" markdown="1">
+
+Latest news
+
+- **Oct 2026** — This website is now live!
+- **Sep 2026** — Teaching *Calculus for Math and Stats I* (Math 1X03) this fall.
+- **Jan 2026** — Co-organizing the Joint Waterloo-McMaster Logic seminar.
+
+</div>
+
 <!--split-->
 
 ## Research 
