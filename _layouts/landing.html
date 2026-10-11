@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+{%- comment -%}
+  Landing layout. Wraps itself inside default.html (header, nav, footer, CSS).
+
+  Front matter used here:
+    heading   big title            (falls back to page.title)
+    subtitle  line under the title
+    photo     file name inside /assets/img/
+    photo_alt text for screen readers
+    caption   HTML/text shown under the photo
+    divider   label in the middle of the horizontal rule (optional)
+    quote:
+      text    the quote
+      source  who/where it comes from (optional)
+
+  Page body: the intro goes first, then a line containing only  <!--split-->
+  then the rest of the page. Without the marker, everything is "the rest".
+{%- endcomment -%}
+
+{%- assign parts = content | split: '<!--split-->' -%}
+{%- if parts.size > 1 -%}
+  {%- assign intro = parts[0] -%}
+  {%- assign rest = parts[1] -%}
+{%- else -%}
+  {%- assign intro = '' -%}
+  {%- assign rest = content -%}
+{%- endif -%}
+
+<section class="hero">
+  <div class="hero-text">
+    <h1 class="hero-title">{{ page.heading | default: page.title }}</h1>
+    {% if page.subtitle %}<p class="hero-subtitle">{{ page.subtitle }}</p>{% endif %}
+    {{ intro }}
+  </div>
+
+  {% if page.photo %}
+  <figure class="hero-photo">
+    <img src="{{ page.photo | prepend: '/assets/img/' | relative_url }}"
+         alt="{{ page.photo_alt | default: 'Photo' }}">
+    {% if page.caption %}<figcaption>{{ page.caption }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+</section>
+
+{% if page.divider %}
+<div class="divider" role="separator"><span>{{ page.divider }}</span></div>
+{% else %}
+<hr class="rule">
+{% endif %}
+
+<div class="landing-body">
+  {{ rest }}
+</div>
+
+{% if page.quote %}
+<figure class="quote-box">
+  <blockquote><p>{{ page.quote.text }}</p></blockquote>
+  {% if page.quote.source %}<figcaption>— {{ page.quote.source }}</figcaption>{% endif %}
+</figure>
+{% endif %}

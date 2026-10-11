@@ -1,22 +1,25 @@
 ---
 title: Home
-layout: default
+layout: landing
 
-profile:
-  align: right
-  image: sample.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Hamilton Hall, 303</p>
-    <p>Department of Mathematics &amp; Statistics</p>
-    <p>McMaster University</p>
-    <p>Hamilton, ON</p>
-    <p>L8S 4L8, Canada</p>
+heading: Welcome around everyone!
+subtitle: Greetings, Earthlings!
+
+photo: sample.jpg
+photo_alt: Profile picture
+caption: |
+  <p>Hamilton Hall, 303</p>
+  <p>Department of Mathematics &amp; Statistics</p>
+  <p>McMaster University</p>
+  <p>Hamilton, ON</p>
+  <p>L8S 4L8, Canada</p>
+
+divider: Home Page
+
+quote:
+  text: "A goal without a plan is just a wish."
+  source: Antoine de Saint-Exupéry
 ---
-
-# Welcome around everyone!
-
-**Greetings, Earthlings!**<br>
 
 Thanks for coming over to my website! My name is **Carlos Cordoba-Caycedo**, and I'm a **PhD candidate in mathematics** at [McMaster University](https://math.mcmaster.ca/) working under the supervision of [Dr. Deirdre Haskell](https://experts.mcmaster.ca/people/haskell) in the <i>elimination of imaginaries of analytic and differential extensions of algebraically closed valued fields.</i><br>
 
@@ -25,6 +28,8 @@ Previously, I was an undergraduate student at [Universidad de Los Andes](https:/
 My research interest lies in the application of **model theoretic** techniques to classification, finite approximation (<i>pseudofiniteness</i>), and the analysis of definable sets in algebraic, metric, analytic or differential structures.<br>
 
 This website contains a summary of my work as a mathematician including research, teaching and other activities. See my [CV]({{ '/CV/' | relative_url }}) page for a detailed summary. If you want to know more things about me, you can always check my [random]({{ '/random/' | relative_url }}) page to be surprised!
+
+<!--split-->
 
 ## Research 
 
