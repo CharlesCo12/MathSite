@@ -5,7 +5,7 @@ layout: landing
 heading: Welcome around everyone!
 subtitle: Greetings, Earthlings!
 
-photo: sample.jpg
+photo: Home.jpeg
 photo_alt: Profile picture
 caption: |
   <p>Hamilton Hall, 303</p>
