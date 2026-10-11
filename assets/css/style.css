@@ -36,6 +36,22 @@ h2 { margin-top: 1.6rem; font-size: 1.35rem; }
 
 main li { margin-bottom: 0.5rem; }
 
+/* Headings: sections (h2) vs subsections (h3) */
+main h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 2.4rem 0 0.9rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--rule);
+}
+main h3 {
+  font-size: 1.15rem;
+  color: var(--link);              /* forest green */
+  margin: 1.7rem 0 0.5rem;
+  font-variant: small-caps;
+}
+
 nav a {
   margin-right: 18px;
   text-decoration: none;
@@ -95,7 +111,9 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 /* Top block: text on the left, photo on the right */
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 420px;   /* text | photo width */
+  --photo-width: 460px;                          /* maximum photo width (also the column width) */
+  --photo-height: 420px;                         /* maximum photo height */
+  grid-template-columns: minmax(0, 1fr) var(--photo-width);
   gap: 2rem;
   align-items: start;
 }
@@ -103,14 +121,13 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 .hero-subtitle { margin: 0 0 1rem; font-size: 1.15rem; font-weight: bold; }
 
 .hero-photo { margin: 0; }
-.hero-photo img { display: block;
-  max-width: 420px;                   
-  max-height: 420px;
+.hero-photo img {
+  display: block;
   width: auto;
   height: auto;
-  margin: 0 0 0 auto;                 /* center it above the caption */
-  object-fit: cover;              /* crop to fill the box instead of squashing */
-  object-position: center top;    /* keep the top of the photo (faces) when cropping */
+  max-width: 100%;                  /* never wider than the column (--photo-width) */
+  max-height: var(--photo-height);  /* never taller than this */
+  margin: 0 0 0 auto;               /* keep it on the right */
   border-radius: 8px;
 }
 .hero-photo figcaption {
@@ -154,8 +171,7 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 .quote-box blockquote p { margin: 0; }
 .quote-box figcaption { margin-top: 0.6rem; text-align: right; font-size: 0.9rem; color: var(--muted); }
 
-/* Phones: stack everything, photo first */
-@media (max-width: 700px) {
-  .hero { grid-template-columns: 1fr; }
-  .hero-photo { order: -1; max-width: 300px; margin: 0 auto; }
+/* Medium screens: slightly smaller photo column */
+@media (max-width: 900px) {
+  .hero { --photo-width: 300px; }
 }

@@ -12,7 +12,7 @@ caption: |
   <p>Presentation at Universidad de Los Andes as Visiting Researcher.</p>
   <p>September, 2025.</p>
 
-divider: Research interest, publications and presentations
+divider: Publications and presentations
 
 quote:
   text: "How many things have been denied one day, only to become realities the next!"
