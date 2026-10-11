@@ -1,0 +1,13 @@
+{%- comment -%}
+  Photo gallery: a grid of equal square tiles. Clicking a tile opens the photo
+  larger, with its title and description (assets/js/gallery.js).
+  The photos come from _data/gallery.yml, so to add or remove one, edit that file.
+  Use it in any page with:   {% include gallery.html %}
+{%- endcomment -%}
+<div class="gallery" data-gallery>
+{%- for p in site.data.gallery %}
+  {%- assign src = p.file | prepend: '/assets/img/' | relative_url %}
+<button class="tile" type="button" data-src="{{ src }}" data-title="{{ p.title | escape }}" data-desc="{{ p.desc | escape }}"><img class="no-zoom" src="{{ src }}" alt="{{ p.title | escape }}" loading="lazy"{% if p.pos %} style="object-position: {{ p.pos }}"{% endif %}><span class="cap">{{ p.title }}</span></button>
+{%- endfor %}
+</div>
+<script src="{{ '/assets/js/gallery.js' | relative_url }}" defer></script>

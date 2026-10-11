@@ -6,12 +6,13 @@
   --link-hover:#1d4a27;   /* darker green on hover */
   --rule:      #c3cdb0;   /* header/footer lines */
   --muted:     #5f6652;   /* footer text */
+  --max-width: 1160px;    /* width of the page column (between 1020px and full width) */
 }
- 
+
 html { background: var(--page-bg);
   font-size: 18px;
   scroll-padding-top: 5rem; }
- 
+
 body {
   background: var(--column-bg); /* the column itself */
   color: var(--text);
@@ -22,7 +23,7 @@ body {
   line-height: 1.6;
   border-radius: 8px;           /* optional: softly rounded corners */
 }
- 
+
 /* Header: title on the left, menu on the right, stays visible while scrolling */
 header {
   position: sticky;
@@ -42,11 +43,11 @@ header h1 { margin: 0; font-size: 1.2rem; }
 nav { margin-left: auto; }           /* keeps the menu on the right even when it wraps */
 nav a { margin-left: 16px; text-decoration: none; color: var(--link); }
 nav a:hover { text-decoration: underline; color: var(--link-hover); }
- 
+
 h2 { margin-top: 1.6rem; font-size: 1.35rem; }
- 
+
 main li { margin-bottom: 0.5rem; }
- 
+
 /* Headings: sections (h2) vs subsections (h3) */
 main h2 {
   font-size: 1.5rem;
@@ -62,10 +63,10 @@ main h3 {
   margin: 1.7rem 0 0.5rem;
   font-variant: small-caps;
 }
- 
+
 a { color: var(--link); }
 a:hover { color: var(--link-hover); }
- 
+
 footer {
   border-top: 1px solid var(--rule);
   margin-top: 40px;
@@ -73,7 +74,7 @@ footer {
   font-size: 0.85rem;
   color: var(--muted);
 }
- 
+
 .profile {
   float: right;
   width: 600px;
@@ -82,18 +83,18 @@ footer {
   line-height: 1.4;
 }
 .profile.left { float: left; margin: 0 28px 16px 0; }
- 
+
 .profile img { display: block; width: 100%; height: auto; border-radius: 8px; }
 .profile img.circular { border-radius: 50%; aspect-ratio: 1 / 1; object-fit: cover; }
 .profile .more-info p { margin: 2px 0; }
 .profile .more-info {text-align:right; }
- 
+
 main::after { content: ""; display: block; clear: both; }  /* footer stays below the photo */
- 
+
 @media (max-width: 600px) {     /* phones: photo on top, centered */
   .profile, .profile.left { float: none; width: 70%; margin: 0 auto 20px; }
 }
- 
+
 /* "Latest news" box (goes in the intro, under the paragraphs) */
 .news {
   margin-top: 1.4rem;
@@ -106,11 +107,11 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 .news p { margin: 0 0 0.3rem; font-weight: bold; }
 .news ul { margin: 0; padding-left: 1.2rem; }
 .news li { margin: 0.2rem 0; }
- 
+
 /* ------------------------------------------------------------------
    Landing layout  (_layouts/landing.html)
    ------------------------------------------------------------------ */
- 
+
 /* Top block: text on the left, photo on the right */
 .hero {
   display: grid;
@@ -122,7 +123,7 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 }
 .hero-title    { margin: 0 0 0.2rem; font-size: 2.2rem; line-height: 1.2; }
 .hero-subtitle { margin: 0 0 1rem; font-size: 1.15rem; font-weight: bold; }
- 
+
 .hero-photo { margin: 0; }
 .hero-photo img {
   display: block;
@@ -140,7 +141,7 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
   text-align: right;               /* left / center / right */
 }
 .hero-photo figcaption p { margin: 2px 0; }
- 
+
 /* Horizontal line with a label in the middle */
 .divider {
   display: flex;
@@ -159,7 +160,7 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
   border-top: 1px solid var(--rule);   /* try: 2px dashed var(--muted) */
 }
 .rule { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
- 
+
 /* Quote box at the end */
 .quote-box {
   width: fit-content;                  /* hugs short quotes... */
@@ -173,14 +174,24 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 .quote-box blockquote { margin: 0; font-style: italic; font-size: 1.1rem;}
 .quote-box blockquote p { margin: 0; }
 .quote-box figcaption { margin-top: 0.6rem; text-align: right; font-size: 0.9rem; color: var(--muted); }
- 
+
+/* Landing top block on smaller screens: medium = narrower photo, phones = stacked, photo first */
+@media (max-width: 900px) {
+  .hero { --photo-width: 300px; }
+}
+@media (max-width: 700px) {
+  .hero { grid-template-columns: minmax(0, 1fr); }
+  .hero-photo { order: -1; max-width: 300px; margin: 0 auto; }
+  .hero-photo figcaption { text-align: center; }
+}
+
 @media (max-width: 700px) {
   header { position: static; padding: 0.5rem 0; gap: 0.2rem 1rem; }  /* scrolls away on phones */
   header h1 { font-size: 1.05rem; }
   nav { margin-left: 0; }
   nav a { margin: 0 12px 0 0; font-size: 0.9rem; }
 }
- 
+
 /* ------------------------------------------------------------------
    Entries layout: CV-style course/position blocks
    ------------------------------------------------------------------ */
@@ -201,13 +212,13 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 .entry-place   { font-style: italic; }
 .entry-details { color: var(--muted); font-size: 0.95rem; }
 .entry-desc    { margin-top: 0.5rem; }
- 
+
 /* ------------------------------------------------------------------
    Lightbox (assets/js/lightbox.js): click a photo to enlarge it
    ------------------------------------------------------------------ */
- 
+
 img.zoomable { cursor: zoom-in; }
- 
+
 dialog.lightbox {
   border: 0;
   padding: 0;
@@ -233,11 +244,11 @@ dialog.lightbox img {
   font-size: 0.95rem;
   color: #f1f3e6;
 }
- 
+
 /* ------------------------------------------------------------------
    CV page  (_layouts/cv.html + assets/js/cv.js)
    ------------------------------------------------------------------ */
- 
+
 /* Opening block: text on the left, photo + download button on the right */
 .cv-hero {
   display: grid;
@@ -255,7 +266,7 @@ dialog.lightbox img {
 }
 .cv-facts dt { color: var(--muted); font-size: 0.78rem; line-height: 1.9; letter-spacing: 0.12em; text-transform: uppercase; }
 .cv-facts dd { margin: 0; }
- 
+
 .cv-dl { display: flex; flex-direction: column; align-items: flex-end; gap: 0.7rem; }   /* everything flush right, like the Home page */
 .cv-photo { margin: 0; }
 .cv-photo img {
@@ -284,7 +295,7 @@ dialog.lightbox img {
 .cv-btn.is-disabled { background: var(--rule); color: var(--muted); cursor: not-allowed; }
 .cv-btn.is-disabled:hover { background: var(--rule); color: var(--muted); }
 .cv-dl-note { margin: 0; font: 0.78rem/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--muted); text-align: right; }
- 
+
 /* Sticky section bar (built by cv.js). --cv-top and --cv-offset are set by cv.js
    so the bar sits right under the sticky site menu, whatever its height. */
 .cv-chips {
@@ -315,9 +326,9 @@ dialog.lightbox img {
 .cv-chips a:hover { border-color: var(--link); color: var(--link-hover); text-decoration: none; }
 .cv-chips a.on { background: var(--link); border-color: var(--link); color: var(--column-bg); }
 .cv-body h2 { scroll-margin-top: var(--cv-offset, 7.5rem); }
- 
+
 .entry-title .code { color: var(--link); white-space: nowrap; }
- 
+
 /* Entries inside the CV become a timeline: date on the left, a vertical line, then the details */
 .cv-body { --cv-date-w: 10rem; }
 .cv-body .entry {
@@ -358,7 +369,7 @@ dialog.lightbox img {
 .cv-body .entry-place   { grid-area: place;   padding-left: 1.4rem; }
 .cv-body .entry-details { grid-area: details; padding-left: 1.4rem; }
 .cv-body .entry-desc    { grid-area: desc;    padding-left: 1.4rem; margin-top: 0.2rem; }
- 
+
 /* Phones: photo + button first, dates above each entry */
 @media (max-width: 700px) {
   .cv-hero { grid-template-columns: 1fr; }
@@ -373,4 +384,135 @@ dialog.lightbox img {
     background-position: 0 0;
   }
   .cv-body .entry-date { padding: 0 0 0 1.4rem; text-align: left; }
+}
+
+/* ------------------------------------------------------------------
+   Photo gallery  (_includes/gallery.html + _data/gallery.yml + assets/js/gallery.js)
+   ------------------------------------------------------------------ */
+
+.gallery {
+  --tile: 200px;                                   /* every tile is exactly this wide and tall */
+  --gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, var(--tile));
+  gap: var(--gap);
+  justify-content: center;
+  margin: 1.2rem 0;
+}
+.gallery .tile {
+  position: relative;
+  width: var(--tile);
+  height: var(--tile);
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #e6ebd2;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+.gallery .tile img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  margin: 0;
+  object-fit: cover;                               /* crop to fill the square, never stretch */
+  transition: transform 0.35s ease;
+}
+.gallery .tile:hover img,
+.gallery .tile:focus-visible img { transform: scale(1.06); }
+.gallery .tile:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.gallery .cap {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 1.6rem 0.7rem 0.55rem;
+  background: linear-gradient(to top, rgba(24, 32, 18, 0.82), rgba(24, 32, 18, 0));
+  color: #f4f6e8;
+  font: 600 0.82rem/1.3 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  text-align: left;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.2s, transform 0.2s;
+}
+.gallery .tile:hover .cap,
+.gallery .tile:focus-visible .cap { opacity: 1; transform: none; }
+@media (hover: none) {                             /* touch screens have no hover: always show the title */
+  .gallery .cap { opacity: 1; transform: none; font-size: 0.74rem; padding-top: 1.2rem; }
+}
+
+/* the viewer that opens when a tile is clicked */
+dialog.gallery-viewer {
+  border: 0;
+  padding: 0;
+  width: min(94vw, 900px);
+  max-width: 94vw;
+  max-height: 94vh;
+  overflow: hidden;
+  background: var(--column-bg);
+  color: var(--text);
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+dialog.gallery-viewer[open] { display: flex; flex-direction: column; }
+dialog.gallery-viewer::backdrop { background: rgba(20, 25, 18, 0.92); }
+.gv-img {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1b2217;
+}
+.gv-img img {
+  display: block;
+  max-width: 100%;
+  max-height: 68vh;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+.gv-text { flex: none; padding: 0.9rem 1.2rem 1.1rem; }
+.gv-text h3 { margin: 0 0 0.2rem; font-size: 1.25rem; }
+.gv-text p { margin: 0; }
+.gv-count {
+  margin-top: 0.6rem;
+  font: 0.75rem system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.gv-btn {
+  position: absolute;
+  z-index: 2;
+  appearance: none;
+  border: 0;
+  cursor: pointer;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0;
+  border-radius: 50%;
+  background: rgba(244, 246, 232, 0.92);
+  color: var(--text);
+  font: 1.3rem/1 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  display: grid;
+  place-items: center;
+}
+.gv-btn:hover { background: #fff; }
+.gv-btn:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.gv-close { top: 0.6rem; right: 0.6rem; }
+.gv-prev, .gv-next { top: 50%; transform: translateY(-50%); }
+.gv-prev { left: 0.6rem; }
+.gv-next { right: 0.6rem; }
+
+@media (max-width: 700px) {
+  .gallery { --tile: 160px; --gap: 10px; }
+  .gv-img img { max-height: 60vh; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gallery .tile img, .gallery .cap { transition: none; }
 }

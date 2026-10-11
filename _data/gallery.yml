@@ -1,0 +1,88 @@
+# Photos for the gallery on the Random page.
+#
+# One entry per photo. To add a photo: copy the image into assets/img/ and add
+# a block like the ones below. To remove one, delete its block. The order here
+# is the order on the page.
+#
+#   file   name of the image inside assets/img/            (required)
+#   title  short title: shown on hover and in the viewer   (required)
+#   desc   one or two sentences, shown in the viewer       (optional)
+#   pos    which part of the photo stays visible in the square thumbnail,
+#          as "x% y%" (default "50% 50%", the centre). Example: "50% 20%" keeps
+#          the upper part of a tall photo.                 (optional)
+#
+# Titles and descriptions below are placeholders written from what is visible
+# in each photo: replace them with your own words.
+
+- file: Valorant1.jpeg
+  title: Selfie with Killjoy's torret.
+  desc: A selfie with Killjoy's torret in Valorant at Valorant Masters 2025 in Toronto, Canada.
+  pos: "50% 50%"
+
+- file: Cat.jpeg
+  title: Sunbathing
+  desc: The Math department's cat in Universidad de Los Andes.
+
+- file: Climbing.jpeg
+  title: A llama with a view
+  desc: A llama in front of Cotopaxi, Ecuador.
+  pos: "50% 55%"
+
+- file: Marker&Me.jpeg
+  title: Selfie with David Marker
+  desc: Selfie with David Marker who was kind enough to pose with me.
+  pos: "50% 60%"
+
+- file: Ferrari.jpeg
+  title: Happy Tifosi in Italy
+  desc: Selfie inside the Ferrari museum in Maranello, Italy.
+  pos: "40% 40%"
+
+- file: Rome.jpeg
+  title: A random selfie in Rome
+  desc: A selfie in front of St. Peter's Basilica on a clear day.
+  pos: "50% 45%"
+
+- file: WorldCupColombia.jpeg
+  title: Colombia, all the way
+  desc: Holding up the flag in the World Cup festival in Toronto, Canada.
+  pos: "50% 70%"
+
+- file: Exploring.jpeg
+  title: Out on the edge?
+  desc: Sitting on a rock ledge back in Colombia.
+  pos: "50% 40%"
+
+- file: HamiltonFootball.jpeg
+  title: Game day in Hamilton
+  desc: One game day in Hamilton with Dr. Speissegger's students. The team tied the game, but we had fun.
+  pos: "75% 50%"
+
+- file: DND2.jpeg
+  title: Dr. Caros doing D&D
+  desc: Drawing of my D&D character by one of my players. My character's name is Dr. Caros, a druid who is permanently stuck in a cat form.
+  pos: "50% 35%"
+
+- file: CatsSpeissegger.jpeg
+  title: Two cats on the stairs
+  desc: Dr. Speissegger's cats on the stairs of his home after Christmas dinner.
+
+- file: Valorant2.jpeg
+  title: My real Valorant player card
+  desc: Valorant player card picture taken at Valorant Masters 2025 in Toronto, Canada.
+  pos: "50% 55%"
+
+- file: CatSLALM.jpeg
+  title: Selfie with the official cat of the SLALM XX.
+  desc: Selfie with the official cat of the SLALM XX, a conference on logic and algebra in mathematics, held in Montevideo, Uruguay in 2023.
+  pos: "50% 55%"
+
+- file: PolePos.jpeg
+  title: Pole position in the quads race
+  desc: Just me after getting pole position in a quads race in the Dominican Republic. I was the only one who finished the race, so I won by default.
+  pos: "50% 55%"
+
+- file: DND1.jpeg
+  title: Dr. Caros and his party in action
+  desc: A photo of my D&D character Dr. Caros and his party in action, taken during one session. As always, Dr. Caros leads the way.
+  pos: "60% 50%"
