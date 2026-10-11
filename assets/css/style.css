@@ -89,9 +89,9 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 
 .hero-photo { margin: 0; }
 .hero-photo img { display: block;
-  width: auto;                    /* let the width follow the height cap */
-  max-width: 100%;
+  max-width: 420px;                   
   max-height: 500px;
+  width: auto;
   height: auto;
   margin: 0 auto;                 /* center it above the caption */
   border-radius: 8px;
