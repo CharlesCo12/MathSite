@@ -25,13 +25,13 @@
 
 - file: Climbing.jpeg
   title: A llama with a view
-  desc: A llama in front of Cotopaxi, Ecuador.
+  desc: A llama in front of the Cotopaxi Volcano in Ecuador.
   pos: "50% 55%"
 
 - file: Marker&Me.jpeg
   title: Selfie with David Marker
   desc: Selfie with David Marker who was kind enough to pose with me.
-  pos: "50% 60%"
+  pos: "50% 30%"
 
 - file: Ferrari.jpeg
   title: Happy Tifosi in Italy
@@ -59,7 +59,7 @@
   pos: "75% 50%"
 
 - file: DND2.jpeg
-  title: Dr. Caros doing D&D
+  title: Dr. Caros in action!
   desc: Drawing of my D&D character by one of my players. My character's name is Dr. Caros, a druid who is permanently stuck in a cat form.
   pos: "50% 35%"
 

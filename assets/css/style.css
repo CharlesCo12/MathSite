@@ -294,7 +294,10 @@ dialog.lightbox img {
 .cv-btn:hover { background: var(--link-hover); color: var(--column-bg); }
 .cv-btn.is-disabled { background: var(--rule); color: var(--muted); cursor: not-allowed; }
 .cv-btn.is-disabled:hover { background: var(--rule); color: var(--muted); }
-.cv-dl-note { margin: 0; font: 0.78rem/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--muted); text-align: right; }
+.cv-dl-note { margin: 0; font: 0.78rem/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--muted); }
+
+/* Download button: sits right under the intro text, followed by the file name and date */
+.cv-download { display: flex; flex-direction: column; align-items: flex-start; gap: 0.5rem; margin: 0.3rem 0 1.6rem; }
 
 /* Sticky section bar (built by cv.js). --cv-top and --cv-offset are set by cv.js
    so the bar sits right under the sticky site menu, whatever its height. */
@@ -323,6 +326,9 @@ dialog.lightbox img {
   white-space: nowrap;
   text-decoration: none;
 }
+/* centre the chips; the auto margins (instead of justify-content: center) keep the bar scrollable when it overflows on phones */
+.cv-chips a:first-child { margin-left: auto; }
+.cv-chips a:last-child  { margin-right: auto; }
 .cv-chips a:hover { border-color: var(--link); color: var(--link-hover); text-decoration: none; }
 .cv-chips a.on { background: var(--link); border-color: var(--link); color: var(--column-bg); }
 .cv-body h2 { scroll-margin-top: var(--cv-offset, 7.5rem); }
@@ -375,8 +381,10 @@ dialog.lightbox img {
   .cv-hero { grid-template-columns: 1fr; }
   .cv-dl { order: -1; width: 100%; max-width: 260px; margin: 0 auto; align-items: center; }
   .cv-photo img { margin: 0 auto; }
-  .cv-photo figcaption, .cv-dl-note { text-align: center; }
+  .cv-photo figcaption { text-align: center; }
+  .cv-download { align-items: stretch; max-width: 320px; }
   .cv-btn { width: 100%; text-align: center; }
+  .cv-dl-note { text-align: center; }
   .cv-body .entry {
     grid-template-columns: 1fr;
     grid-template-areas: "date" "title" "place" "details" "desc";
