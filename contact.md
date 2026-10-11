@@ -8,6 +8,7 @@ subtitle: What to say "Hi"?
 
 photo: NiagaraPicture.jpeg
 photo_alt: Photo at Niagara Falls
+photo_frame: true
 caption: |
   <p>One cool picture at Niagara Falls.</p>
   <p>September, 2024.</p>

@@ -20,7 +20,7 @@ quote:
     <p>J.K. Rowling, Harry Potter and the Prisoner of Azkaban.</p>
 ---
 
-As a personal statement, I find any kind of event where mathematicians can socialize an incredible opportunity to grow as a researcher and have the chance to meet people who I looked up at some point in my life. In particular, conferences, seminars or just short talks are social events that **mathematicians must protect from the AI ghost** that is coming over. <br>
+As a personal statement, I find any kind of event where mathematicians can socialize an incredible opportunity to grow as a researcher and have the chance to meet people who I looked up at some point in my life. In particular, as AI starts appearing in scientific research, I personally believe that **mathematicians must protect and preserve conferences, seminars and short talks as active scientific and social events**. <br>
 
 Therefore, I have been participating in multiple activities throughout the years and hopefully some of you know me from those conferences and had the chance to enjoy some of my silly jokes. Moreover, I enjoy organizing seminar sessions between different universities, and some informal talks where undergraduate students have the experience of speaking to a broader mathematical audience. <br>
 

@@ -7,6 +7,7 @@ subtitle: Greetings, Earthlings!
 
 photo: Home.jpeg
 photo_alt: Profile picture
+photo_frame: true
 caption: |
   <p>Hamilton Hall, 303</p>
   <p>Department of Mathematics &amp; Statistics</p>

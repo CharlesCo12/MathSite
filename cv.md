@@ -209,12 +209,14 @@ Also, lead the following complementary course at Universidad de Los Andes.
  
 - *Elimination of imaginaries in algebraically closed valued fields with analytic and differential structure.* XXI Latin American Symposium on Mathematical Logic (SLALM), Universidad de Los Andes, Colombia, 2026.
 - *Constraining cosmological parameters using cosmic voids.* CoCo 2020: Cosmology in Colombia, 2020.
+
 ### Seminar and University Talks
  
 - *Classification of pseudofinite Abelian Groups and exact classes of finite abelian groups.* Model Theory seminar, McMaster University, Canada, 2025.
 - *An Introduction to imaginaries in analytic extensions of algebraically closed valued fields.* Extraordinary Model Theory seminar, Universidad de Los Andes, Colombia, 2025.
 - *Stable domination in a family of power series fields with analytic structure.* Model Theory seminar, McMaster University, Canada, 2024.
 - *Unlimited Power: Introduction to pseudofinite structures.* Casual Math seminar, McMaster University, Canada, 2023.
+
 ### Short Presentations
  
 - *Ongoing research problems in my Ph.D. studies.* Ph.D. Student Session, Workshop on Model Theory, Algebraic Dynamics, and Differential-Algebraic Geometry, Fields Institute, Toronto, Canada, 2025.
@@ -228,19 +230,21 @@ Also, lead the following complementary course at Universidad de Los Andes.
 - *XX Latin American Symposium on Mathematical Logic (SLALM)*, Universidad de la República, Uruguay, 2024.
 - *Model theory and related topics*, University of Manchester, UK, 2023.
 - *CoCo 2020: Cosmology in Colombia*, Virtual Conference, 2020.
+
 ### Workshops
  
 - *Workshop on Model Theory, Algebraic Dynamics, and Differential-Algebraic Geometry*, Fields Institute, Toronto, Canada, 2025.
+
 ### Seasonal Schools
  
 - *Summer School on Exponential Fields and Valued Fields in Model Theory*, University of Naples Federico II, Italy, 2025.
 - *Foundations and Frontiers of Probabilistic Proofs Summer Graduate School*, École Polytechnique Fédérale de Lausanne (EPFL), Zürich, Switzerland, 2023.
+
 ### Symposiums
  
 - *2025 Fields Medal Symposium: Mark Braverman*, Fields Institute, Toronto, Canada, 2025.
 
 ## Professional Experience
-{: data-short="Experience"}
  
 {% include entry.html
    title="Senior Data Quality Specialist &ndash; Math"
@@ -279,6 +283,7 @@ Also, lead the following complementary course at Universidad de Los Andes.
 - Intermediate experience with MATLAB.
 - Advanced experience writing in LaTeX.
 - Professional experience in Power BI, Power Automate, Claude Code/Anthropic API.
+
 ### Languages
  
 - Spanish (Native)

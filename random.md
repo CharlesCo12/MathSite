@@ -8,6 +8,7 @@ subtitle: Anything else you should know?
 
 photo: Random.jpeg
 photo_alt: Selfie with The Beatles
+photo_frame: true
 caption: |
   <p>Selfie with The Beatles.</p>
   <p>Summer, 2023.</p>
