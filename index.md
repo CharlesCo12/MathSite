@@ -14,7 +14,6 @@ caption: |
   <p>Hamilton, ON</p>
   <p>L8S 4L8, Canada</p>
 
-divider: Summary
 
 quote:
   text: "A goal without a plan is just a wish."
@@ -28,8 +27,6 @@ Previously, I was an undergraduate student at [Universidad de Los Andes](https:/
 My research interest lies in the application of **model theoretic** techniques to classification, finite approximation (<i>pseudofiniteness</i>), and the analysis of definable sets in algebraic, metric, analytic or differential structures.<br>
 
 This website contains a summary of my work as a mathematician including research, teaching and other activities. See my [CV]({{ '/CV/' | relative_url }}) page for a detailed summary. If you want to know more things about me, you can always check my [random]({{ '/random/' | relative_url }}) page to be surprised!
-
-<!--split-->
 
 ## Research 
 
