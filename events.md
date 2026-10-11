@@ -24,7 +24,7 @@ As a personal statement, I find any kind of event where mathematicians can socia
 
 Therefore, I have been participating in multiple activities throughout the years and hopefully some of you know me from those conferences and had the chance to enjoy some of my silly jokes. Moreover, I enjoy organizing seminar sessions between different universities, and some informal talks where undergraduate students have the experience of speaking to a broader mathematical audience. <br>
 
-At this moment, I serve as **co-organizer of the Joint Waterloo-McMaster Logic Seminar** alongside Nathan Hart-Johnson (<a href="https://uwaterloo.ca/math/news/pure-mathematics-graduate-student-tackles-overlooked-animal">see the following news</a>), and as **co-organizer of the Casual Math Seminar** at McMaster University (see the <a href="https://sites.google.com/view/casual-math-seminar/home">Seminar website</a>).
+At this moment, I serve as **co-organizer of the Joint Waterloo-McMaster Logic Seminar** alongside Nathan Hart-Hodgson (<a href="https://uwaterloo.ca/math/news/pure-mathematics-graduate-student-tackles-overlooked-animal">see the following news</a>), and as **co-organizer of the Casual Math Seminar** at McMaster University (see the <a href="https://sites.google.com/view/casual-math-seminar/home">Seminar website</a>).
 
 <!--split-->
 
