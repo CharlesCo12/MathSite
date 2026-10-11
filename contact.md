@@ -14,7 +14,7 @@ caption: |
 
 quote:
   text: "But it is not complete glory to win in battle. For the arm that fights, it is the truth that inspires it."
-  source: <p>Colombian National Anthem.</p>
+  source: Colombian National Anthem.
     <p>Oreste Sindici (Composer), Rafael N&uacute;&ntilde;ez (Lyricist)</p>
 ---
 Hi there! I enjoy talking about any kind of silly things as I have an incredible amount of useless information in my mind. In particular, I enjoy gossip, small talk (any topic is accepted except the outcome of the final of the <i>Copa America 2024</i>), and mathematical discussions. Also, feel free to contact me in **english or spanish**. <br>
