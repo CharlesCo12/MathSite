@@ -196,3 +196,35 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 .entry-place   { font-style: italic; }
 .entry-details { color: var(--muted); font-size: 0.95rem; }
 .entry-desc    { margin-top: 0.5rem; }
+
+/* ------------------------------------------------------------------
+   Lightbox (assets/js/lightbox.js): click a photo to enlarge it
+   ------------------------------------------------------------------ */
+   
+img.zoomable { cursor: zoom-in; }
+
+dialog.lightbox {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  max-width: 96vw;
+  max-height: 96vh;
+  overflow: visible;
+}
+dialog.lightbox::backdrop { background: rgba(20, 25, 18, 0.94); }
+dialog.lightbox img {
+  display: block;
+  max-width: 92vw;
+  max-height: 84vh;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 6px;
+  cursor: zoom-out;
+}
+.lightbox-caption {
+  margin: 0.7rem 0 0;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #f1f3e6;
+}

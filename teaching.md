@@ -32,7 +32,7 @@ Below you will find my experience as an instructor and as a teaching assistant.
 During my career I have taught 6 courses at McMaster University as a Seasonal Instructor, and coordinated one of them as well.
 
 {% include entry.html
-   title="Calculus for Math and Stats I &ndash;<strong>Math 1X03</strong>"
+   title="Calculus for Math and Stats I &ndash; Math 1X03"
    date="Fall 2026 (Present)"
    place="McMaster University, Canada."
    details="Enrollment: 115 students."
@@ -40,7 +40,7 @@ During my career I have taught 6 courses at McMaster University as a Seasonal In
 %}
 
 {% include entry.html
-   title="Multivariable calculus &ndash; </strong>Math 2MC3</strong>"
+   title="Multivariable calculus &ndash; Math 2MC3"
    date="Spring 2026"
    place="McMaster University, Canada."
    details="Enrollment: 36 students."
@@ -48,15 +48,15 @@ During my career I have taught 6 courses at McMaster University as a Seasonal In
 %}
 
 {% include entry.html
-   title="Numerical Methods for Differential Equations &ndash; </strong>Math 4NA3</strong>"
+   title="Numerical Methods for Differential Equations &ndash; Math 4NA3"
    date="Winter 2026"
    place="McMaster University, Canada."
-   details="Enrollment: 27 students. Upper level &amp; graduate course (</strong>Math 6NA3</strong>)."
+   details="Enrollment: 27 students. Upper level &amp; graduate course (Math 6NA3)."
    desc="Develops a numerical approach to solutions of ODEs and simple PDEs using MATLAB."
 %}
 
 {% include entry.html
-   title="Engineering Mathematics III &ndash; </strong>Math 2Z03</strong>"
+   title="Engineering Mathematics III &ndash; Math 2Z03"
    date="Spring 2025"
    place="McMaster University, Canada."
    details="Coordinator of the course. Enrollment: 245 students."
@@ -64,7 +64,7 @@ During my career I have taught 6 courses at McMaster University as a Seasonal In
 %}
 
 {% include entry.html
-   title="Calculus for science I &ndash; </strong>Math 1A03</strong>"
+   title="Calculus for science I &ndash; Math 1A03"
    date="Fall 2024"
    place="McMaster University, Canada."
    details="Enrollment: 190 students."
@@ -72,7 +72,7 @@ During my career I have taught 6 courses at McMaster University as a Seasonal In
 %}
 
 {% include entry.html
-   title="Introduction to differential equations &ndash; </strong>Math 2C03</strong>"
+   title="Introduction to differential equations &ndash; Math 2C03"
    date="Spring 2024"
    place="McMaster University, Canada."
    details="Enrollment: 30 students."
