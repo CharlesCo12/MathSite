@@ -29,7 +29,6 @@ At this moment, I serve as **co-organizer of the Joint Waterloo-McMaster Logic S
 <!--split-->
 
 ## Current Participation
-Ongoing participation
 
 During Fall 2026, I am actively attending the following seminars and colloquia:
 

@@ -17,7 +17,7 @@ quote:
   source: Colombian National Anthem.
     <p>Oreste Sindici (Composer), Rafael N&uacute;&ntilde;ez (Lyricist)</p>
 ---
-Hi there! I enjoy talking about any kind of silly things as I have an incredible amount of useless information in my mind. In particular, I enjoy gossip, small talk (any topic is accepted except the outcome of the final of the <i>Copa America 2024</i>), and mathematical discussions. Also, feel free to contact me in **english or spanish**. <br>
+Hi there! I enjoy talking about any kind of silly things as I have an incredible amount of useless information in my mind. In particular, I enjoy gossip, small talk (any topic is accepted except the outcome of the final of the <i>Copa America 2024</i>), and mathematical discussions. Feel free to contact me in **english or spanish**. <br>
 
 Any of the three is of your interest? Then make sure to either come around to my office or send me an email saying <i>"Hi!"</i>. I respect other people's time and effort to contacting me regarding any possible matter, so **I try to reply any email in less than 24 hours except weekends.** <br>
 
