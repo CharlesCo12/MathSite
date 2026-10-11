@@ -6,7 +6,6 @@
   --link-hover:#1d4a27;   /* darker green on hover */
   --rule:      #c3cdb0;   /* header/footer lines */
   --muted:     #5f6652;   /* footer text */
-  --max-width: 920px;       /* maximum width of the page */
 }
  
 html { background: var(--page-bg);
