@@ -80,7 +80,7 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 /* Top block: text on the left, photo on the right */
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 400px;   /* text | photo width */
+  grid-template-columns: minmax(0, 1fr) 420px;   /* text | photo width */
   gap: 2rem;
   align-items: start;
 }
@@ -90,10 +90,12 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 .hero-photo { margin: 0; }
 .hero-photo img { display: block;
   max-width: 420px;                   
-  max-height: 500px;
+  max-height: 420px;
   width: auto;
   height: auto;
   margin: 0 auto;                 /* center it above the caption */
+  object-fit: cover;              /* crop to fill the box instead of squashing */
+  object-position: center top;    /* keep the top of the photo (faces) when cropping */
   border-radius: 8px;
 }
 .hero-photo figcaption {
