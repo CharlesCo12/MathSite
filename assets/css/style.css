@@ -89,11 +89,11 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 
 .hero-photo { margin: 0; }
 .hero-photo img { display: block;
-  width: 100%;
+  width: auto;                    /* let the width follow the height cap */
+  max-width: 100%;
+  max-height: 360px;
   height: auto;
-  max-height: 320px;              /* ← the maximum height; adjust to taste */
-  object-fit: cover;              /* crop to fill the box instead of squashing */
-  object-position: center top;    /* keep the top of the photo (faces) when cropping */
+  margin: 0 auto;                 /* center it above the caption */
   border-radius: 8px;
 }
 .hero-photo figcaption {
