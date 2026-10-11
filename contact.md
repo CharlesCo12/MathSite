@@ -27,5 +27,3 @@ Below you can find my contact information:
 
 **Email:** <a href="mailto:cordobac@mcmaster.ca">cordobac@mcmaster.ca</a>.<br>
 **Current Address:** Hamilton Hall, 303. Department of Mathematics &amp; Statistics. McMaster University. Hamilton, ON , Canada. L8S 4L8.
-
-<!--split-->
