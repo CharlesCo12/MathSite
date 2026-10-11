@@ -52,7 +52,7 @@ I serve as the __co-organizer__ of the Joint Waterloo-McMaster Joint Logic Semin
 
 I am **not planning on attending any conferences soon**, but on my [events]({{ '/events/' | relative_url }}) page you can see a summary of the previous conferences and seminar I organized.
 
-### Ongoing participation
+### Current participation
 
 During Fall 2026, I am actively attending the following seminars and colloquia:
 
