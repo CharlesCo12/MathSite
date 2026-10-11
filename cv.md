@@ -100,6 +100,7 @@ Model theory (especially applications of model theory to algebraic structures), 
 - Cordoba-Caycedo, C., and Garcia, D. *Pseudofinite abelian groups and exact classes of finite abelian groups.*
 - Cordoba-Caycedo, C., and Speissegger, P. *The field of reals with asymmetric multisummable classes.*
 - Hart, B., and Cordoba-Caycedo, C. *The Urysohn sphere is pseudofinite.*
+
 ## Teaching
  
 ### Teaching Interest
@@ -166,6 +167,7 @@ Leading tutorial sessions, office hours and marking for the following courses at
 Also, lead the following complementary course at Universidad de Los Andes.
  
 - **Mate 1201** &ndash; Precalculus (Jan. 2021 &ndash; May 2021)
+
 ## Event Organization and Service
 {: data-short="Service"}
  
@@ -190,6 +192,7 @@ Also, lead the following complementary course at Universidad de Los Andes.
 - Treasurer, *Latin American Graduate Student Association*, McMaster University, Sept. 2026 &ndash; present.
 - VP of Communications, *Mathematics &amp; Statistics Graduate Society*, McMaster University, Jan. 2024 &ndash; Oct. 2024.
 - Member of the Organization of Latin American Students (*OLAS*) and the Latin American Network at McMaster University (*LANMU*), Sept. 2022 &ndash; present.
+
 ## Honours and Awards
 {: data-short="Honours"}
  
@@ -198,6 +201,7 @@ Also, lead the following complementary course at Universidad de Los Andes.
 - Laureate thesis distinction, Mathematics, Universidad de Los Andes, 2021.
 - Laureate thesis distinction, Physics, Universidad de Los Andes, 2020.
 - Winner, National Mathematics Contest “Supérate con el Saber”, Colombia, 2014.
+
 ## Lectures and Presentations
 {: data-short="Talks"}
  
@@ -214,6 +218,7 @@ Also, lead the following complementary course at Universidad de Los Andes.
 ### Short Presentations
  
 - *Ongoing research problems in my Ph.D. studies.* Ph.D. Student Session, Workshop on Model Theory, Algebraic Dynamics, and Differential-Algebraic Geometry, Fields Institute, Toronto, Canada, 2025.
+
 ## Conferences and Workshops
 {: data-short="Conferences"}
  
@@ -233,6 +238,7 @@ Also, lead the following complementary course at Universidad de Los Andes.
 ### Symposiums
  
 - *2025 Fields Medal Symposium: Mark Braverman*, Fields Institute, Toronto, Canada, 2025.
+
 ## Professional Experience
 {: data-short="Experience"}
  
