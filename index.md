@@ -14,7 +14,7 @@ caption: |
   <p>Hamilton, ON</p>
   <p>L8S 4L8, Canada</p>
 
-divider: Home Page
+divider: Summary
 
 quote:
   text: "A goal without a plan is just a wish."
