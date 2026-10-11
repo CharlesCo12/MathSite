@@ -28,6 +28,8 @@ My research interest lies in the application of **model theoretic** techniques t
 
 This website contains a summary of my work as a mathematician including research, teaching and other activities. See my [CV]({{ '/CV/' | relative_url }}) page for a detailed summary. If you want to know more things about me, you can always check my [random]({{ '/random/' | relative_url }}) page to be surprised!
 
+<!--split-->
+
 ## Research 
 
 Besides finding interesting the construction of Websites with my silly jokes, my main research area is **model theory** with an special interest in extension of algebraically closed valued fields ($$\text{ACVF}$$), pseudofinite structures (Abelian groups, Metric spaces), and O-minimality.<br>
