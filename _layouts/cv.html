@@ -1,0 +1,88 @@
+---
+layout: default
+---
+{%- comment -%}
+  CV layout. Wraps itself inside default.html (header, menu, footer, CSS).
+ 
+  Front matter used here:
+    heading        big title               (falls back to page.title)
+    subtitle       line under the title
+    pdf            file name inside /assets/pdf/   ("" = button greyed out)
+    photo          file name inside /assets/img/   ("" = no photo)
+    photo_alt      text for screen readers
+    photo_caption  small text under the photo (optional)
+    updated        e.g. "October 2026" (optional, shown under the button)
+    facts          list of  label / value  pairs shown under the intro
+    divider        label in the middle of the horizontal rule (optional)
+ 
+  Page body: the intro goes first, then a line containing only  <!--split-->
+  then the CV itself. Every "## Heading" in the CV becomes one button in the
+  sticky section bar (assets/js/cv.js builds it). To use a shorter button label,
+  put   {: data-short="Short name"}   on the line right under the heading.
+{%- endcomment -%}
+ 
+{%- assign parts = content | split: '<!--split-->' -%}
+{%- if parts.size > 1 -%}
+  {%- assign intro = parts[0] -%}
+  {%- assign rest = parts[1] -%}
+{%- else -%}
+  {%- assign intro = '' -%}
+  {%- assign rest = content -%}
+{%- endif -%}
+ 
+{%- assign has_pdf = false -%}
+{%- assign has_updated = false -%}
+{%- if page.pdf and page.pdf != "" -%}{%- assign has_pdf = true -%}{%- endif -%}
+{%- if page.updated and page.updated != "" -%}{%- assign has_updated = true -%}{%- endif -%}
+ 
+<section class="cv-hero">
+  <div class="cv-hero-text">
+    <h1 class="hero-title">{{ page.heading | default: page.title }}</h1>
+    {% if page.subtitle %}<p class="hero-subtitle">{{ page.subtitle }}</p>{% endif %}
+    {{ intro }}
+    {% if page.facts %}
+    <dl class="cv-facts">
+      {% for fact in page.facts %}
+      <dt>{{ fact.label }}</dt>
+      <dd>{{ fact.value }}</dd>
+      {% endfor %}
+    </dl>
+    {% endif %}
+  </div>
+ 
+  <div class="cv-dl">
+    {% if page.photo and page.photo != "" %}
+    <figure class="cv-photo">
+      <img src="{{ page.photo | prepend: '/assets/img/' | relative_url }}"
+           alt="{{ page.photo_alt | default: 'Photo' }}">
+      {% if page.photo_caption and page.photo_caption != "" %}<figcaption>{{ page.photo_caption }}</figcaption>{% endif %}
+    </figure>
+    {% endif %}
+ 
+    {% if has_pdf %}
+    <a class="cv-btn" href="{{ page.pdf | prepend: '/assets/pdf/' | relative_url }}" download>Download CV (PDF)</a>
+    {% else %}
+    <span class="cv-btn is-disabled" aria-disabled="true" title="The PDF has not been added yet">Download CV (PDF)</span>
+    {% endif %}
+ 
+    {% if has_pdf or has_updated %}
+    <p class="cv-dl-note">
+      {% if has_pdf %}{{ page.pdf }}{% endif %}
+      {% if has_pdf and has_updated %}<br>{% endif %}
+      {% if has_updated %}Updated {{ page.updated }}{% endif %}
+    </p>
+    {% endif %}
+  </div>
+</section>
+ 
+{% if page.divider %}
+<div class="divider" role="separator"><span>{{ page.divider }}</span></div>
+{% else %}
+<hr class="rule">
+{% endif %}
+ 
+<div class="cv-body">
+  {{ rest }}
+</div>
+ 
+<script src="{{ '/assets/js/cv.js' | relative_url }}" defer></script>

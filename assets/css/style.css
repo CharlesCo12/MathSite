@@ -233,3 +233,142 @@ dialog.lightbox img {
   font-size: 0.95rem;
   color: #f1f3e6;
 }
+
+/* ------------------------------------------------------------------
+   CV page  (_layouts/cv.html + assets/js/cv.js)
+   ------------------------------------------------------------------ */
+ 
+/* Opening block: text on the left, photo + download button on the right */
+.cv-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;     /* right column = max photo width */
+  gap: 1.2rem 2.5rem;
+  align-items: start;
+}
+.cv-hero-text p { margin: 0 0 1rem; }
+.cv-facts {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.25rem 1rem;
+  margin: 0;
+  font-size: 0.95rem;
+}
+.cv-facts dt { color: var(--muted); font-size: 0.78rem; line-height: 1.9; letter-spacing: 0.12em; text-transform: uppercase; }
+.cv-facts dd { margin: 0; }
+ 
+.cv-dl { display: flex; flex-direction: column; align-items: center; gap: 0.7rem; }
+.cv-photo { margin: 0; }
+.cv-photo img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 300px;                /* never taller than this */
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.cv-photo figcaption { margin-top: 0.4rem; font-size: 0.85rem; line-height: 1.4; text-align: center; }
+.cv-btn {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.7rem 1.1rem;
+  border-radius: 6px;
+  background: var(--link);
+  color: var(--column-bg);
+  font: bold 0.95rem system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-decoration: none;
+}
+.cv-btn:hover { background: var(--link-hover); color: var(--column-bg); }
+.cv-btn.is-disabled { background: var(--rule); color: var(--muted); cursor: not-allowed; }
+.cv-btn.is-disabled:hover { background: var(--rule); color: var(--muted); }
+.cv-dl-note { margin: 0; font: 0.78rem/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--muted); text-align: center; }
+ 
+/* Sticky section bar (built by cv.js). --cv-top and --cv-offset are set by cv.js
+   so the bar sits right under the sticky site menu, whatever its height. */
+.cv-chips {
+  position: sticky;
+  top: var(--cv-top, 64px);
+  z-index: 90;                      /* below the site menu (100) */
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  margin: 0 -20px;                  /* run edge to edge inside the column */
+  padding: 0.6rem 20px;
+  background: var(--column-bg);
+  border-bottom: 1px solid var(--rule);
+  scrollbar-width: thin;
+}
+.cv-chips a {
+  flex: none;
+  margin: 0;                        /* cancel the site menu's "nav a" spacing */
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: #fbfcf4;
+  color: var(--text);
+  font: 0.82rem/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.cv-chips a:hover { border-color: var(--link); color: var(--link-hover); text-decoration: none; }
+.cv-chips a.on { background: var(--link); border-color: var(--link); color: var(--column-bg); }
+.cv-body h2 { scroll-margin-top: var(--cv-offset, 7.5rem); }
+ 
+.entry-title .code { color: var(--link); white-space: nowrap; }
+ 
+/* Entries inside the CV become a timeline: date on the left, a vertical line, then the details */
+.cv-body { --cv-date-w: 10rem; }
+.cv-body .entry {
+  display: grid;
+  grid-template-columns: var(--cv-date-w) minmax(0, 1fr);
+  grid-template-areas:
+    "date title"
+    "date place"
+    "date details"
+    "date desc";
+  grid-template-rows: auto auto auto 1fr;
+  margin: 0;
+  padding: 0.55rem 0 0.65rem;
+  border-left: 0;
+  background: linear-gradient(var(--rule), var(--rule)) var(--cv-date-w) 0 / 2px 100% no-repeat;   /* the line */
+}
+.cv-body .entry-head { display: contents; }
+.cv-body .entry-date {
+  grid-area: date;
+  padding: 0.19rem 1.3rem 0 0;
+  text-align: right;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  white-space: normal;
+}
+.cv-body .entry-title { grid-area: title; position: relative; padding-left: 1.4rem; }
+.cv-body .entry-title::before {                 /* the dot on the line */
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: calc(0.8em - 6px);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--column-bg);
+  border: 2px solid var(--link);
+}
+.cv-body .entry-place   { grid-area: place;   padding-left: 1.4rem; }
+.cv-body .entry-details { grid-area: details; padding-left: 1.4rem; }
+.cv-body .entry-desc    { grid-area: desc;    padding-left: 1.4rem; margin-top: 0.2rem; }
+ 
+/* Phones: photo + button first, dates above each entry */
+@media (max-width: 700px) {
+  .cv-hero { grid-template-columns: 1fr; }
+  .cv-dl { order: -1; width: 100%; max-width: 260px; margin: 0 auto; }
+  .cv-body .entry {
+    grid-template-columns: 1fr;
+    grid-template-areas: "date" "title" "place" "details" "desc";
+    grid-template-rows: none;
+    background-position: 0 0;
+  }
+  .cv-body .entry-date { padding: 0 0 0 1.4rem; text-align: left; }
+}
