@@ -12,7 +12,7 @@ timezone: America/Toronto
 #  - If your repo is named  <username>.github.io   ->  keep baseurl EMPTY ("")
 #  - If your repo is named  anything-else (e.g. math-site)
 #        ->  set baseurl to "/anything-else"   (leading slash, no trailing slash)
-baseurl: "/Test.github.io"
+baseurl: "/MathSite"
 
 footer_text: >
   Last Updated: {{ site.time | date: "%B %-d, %Y" }}.
