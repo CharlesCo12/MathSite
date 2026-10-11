@@ -6,12 +6,13 @@
   --link-hover:#1d4a27;   /* darker green on hover */
   --rule:      #c3cdb0;   /* header/footer lines */
   --muted:     #5f6652;   /* footer text */
+  --max-width: 920px;       /* maximum width of the page */
 }
-
+ 
 html { background: var(--page-bg);
   font-size: 18px;
   scroll-padding-top: 5rem; }
-
+ 
 body {
   background: var(--column-bg); /* the column itself */
   color: var(--text);
@@ -22,7 +23,7 @@ body {
   line-height: 1.6;
   border-radius: 8px;           /* optional: softly rounded corners */
 }
-
+ 
 /* Header: title on the left, menu on the right, stays visible while scrolling */
 header {
   position: sticky;
@@ -42,11 +43,11 @@ header h1 { margin: 0; font-size: 1.2rem; }
 nav { margin-left: auto; }           /* keeps the menu on the right even when it wraps */
 nav a { margin-left: 16px; text-decoration: none; color: var(--link); }
 nav a:hover { text-decoration: underline; color: var(--link-hover); }
-
+ 
 h2 { margin-top: 1.6rem; font-size: 1.35rem; }
-
+ 
 main li { margin-bottom: 0.5rem; }
-
+ 
 /* Headings: sections (h2) vs subsections (h3) */
 main h2 {
   font-size: 1.5rem;
@@ -62,10 +63,10 @@ main h3 {
   margin: 1.7rem 0 0.5rem;
   font-variant: small-caps;
 }
-
+ 
 a { color: var(--link); }
 a:hover { color: var(--link-hover); }
-
+ 
 footer {
   border-top: 1px solid var(--rule);
   margin-top: 40px;
@@ -73,7 +74,7 @@ footer {
   font-size: 0.85rem;
   color: var(--muted);
 }
-
+ 
 .profile {
   float: right;
   width: 600px;
@@ -82,18 +83,18 @@ footer {
   line-height: 1.4;
 }
 .profile.left { float: left; margin: 0 28px 16px 0; }
-
+ 
 .profile img { display: block; width: 100%; height: auto; border-radius: 8px; }
 .profile img.circular { border-radius: 50%; aspect-ratio: 1 / 1; object-fit: cover; }
 .profile .more-info p { margin: 2px 0; }
 .profile .more-info {text-align:right; }
-
+ 
 main::after { content: ""; display: block; clear: both; }  /* footer stays below the photo */
-
+ 
 @media (max-width: 600px) {     /* phones: photo on top, centered */
   .profile, .profile.left { float: none; width: 70%; margin: 0 auto 20px; }
 }
-
+ 
 /* "Latest news" box (goes in the intro, under the paragraphs) */
 .news {
   margin-top: 1.4rem;
@@ -106,11 +107,11 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 .news p { margin: 0 0 0.3rem; font-weight: bold; }
 .news ul { margin: 0; padding-left: 1.2rem; }
 .news li { margin: 0.2rem 0; }
-
+ 
 /* ------------------------------------------------------------------
    Landing layout  (_layouts/landing.html)
    ------------------------------------------------------------------ */
-
+ 
 /* Top block: text on the left, photo on the right */
 .hero {
   display: grid;
@@ -122,7 +123,7 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 }
 .hero-title    { margin: 0 0 0.2rem; font-size: 2.2rem; line-height: 1.2; }
 .hero-subtitle { margin: 0 0 1rem; font-size: 1.15rem; font-weight: bold; }
-
+ 
 .hero-photo { margin: 0; }
 .hero-photo img {
   display: block;
@@ -140,7 +141,7 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
   text-align: right;               /* left / center / right */
 }
 .hero-photo figcaption p { margin: 2px 0; }
-
+ 
 /* Horizontal line with a label in the middle */
 .divider {
   display: flex;
@@ -159,7 +160,7 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
   border-top: 1px solid var(--rule);   /* try: 2px dashed var(--muted) */
 }
 .rule { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
-
+ 
 /* Quote box at the end */
 .quote-box {
   width: fit-content;                  /* hugs short quotes... */
@@ -173,14 +174,14 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 .quote-box blockquote { margin: 0; font-style: italic; font-size: 1.1rem;}
 .quote-box blockquote p { margin: 0; }
 .quote-box figcaption { margin-top: 0.6rem; text-align: right; font-size: 0.9rem; color: var(--muted); }
-
+ 
 @media (max-width: 700px) {
   header { position: static; padding: 0.5rem 0; gap: 0.2rem 1rem; }  /* scrolls away on phones */
   header h1 { font-size: 1.05rem; }
   nav { margin-left: 0; }
   nav a { margin: 0 12px 0 0; font-size: 0.9rem; }
 }
-
+ 
 /* ------------------------------------------------------------------
    Entries layout: CV-style course/position blocks
    ------------------------------------------------------------------ */
@@ -201,13 +202,13 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 .entry-place   { font-style: italic; }
 .entry-details { color: var(--muted); font-size: 0.95rem; }
 .entry-desc    { margin-top: 0.5rem; }
-
+ 
 /* ------------------------------------------------------------------
    Lightbox (assets/js/lightbox.js): click a photo to enlarge it
    ------------------------------------------------------------------ */
-
+ 
 img.zoomable { cursor: zoom-in; }
-
+ 
 dialog.lightbox {
   border: 0;
   padding: 0;
@@ -233,7 +234,7 @@ dialog.lightbox img {
   font-size: 0.95rem;
   color: #f1f3e6;
 }
-
+ 
 /* ------------------------------------------------------------------
    CV page  (_layouts/cv.html + assets/js/cv.js)
    ------------------------------------------------------------------ */
@@ -256,7 +257,7 @@ dialog.lightbox img {
 .cv-facts dt { color: var(--muted); font-size: 0.78rem; line-height: 1.9; letter-spacing: 0.12em; text-transform: uppercase; }
 .cv-facts dd { margin: 0; }
  
-.cv-dl { display: flex; flex-direction: column; align-items: center; gap: 0.7rem; }
+.cv-dl { display: flex; flex-direction: column; align-items: flex-end; gap: 0.7rem; }   /* everything flush right, like the Home page */
 .cv-photo { margin: 0; }
 .cv-photo img {
   display: block;
@@ -264,15 +265,14 @@ dialog.lightbox img {
   height: auto;
   max-width: 100%;
   max-height: 300px;                /* never taller than this */
-  margin: 0 auto;
+  margin: 0 0 0 auto;               /* keep it on the right */
   border-radius: 8px;
 }
-.cv-photo figcaption { margin-top: 0.4rem; font-size: 0.85rem; line-height: 1.4; text-align: center; }
+.cv-photo figcaption { margin-top: 0.4rem; font-size: 0.85rem; line-height: 1.4; text-align: right; }
 .cv-btn {
   display: block;
   box-sizing: border-box;
-  width: 100%;
-  padding: 0.7rem 1.1rem;
+  padding: 0.7rem 1.4rem;
   border-radius: 6px;
   background: var(--link);
   color: var(--column-bg);
@@ -284,7 +284,7 @@ dialog.lightbox img {
 .cv-btn:hover { background: var(--link-hover); color: var(--column-bg); }
 .cv-btn.is-disabled { background: var(--rule); color: var(--muted); cursor: not-allowed; }
 .cv-btn.is-disabled:hover { background: var(--rule); color: var(--muted); }
-.cv-dl-note { margin: 0; font: 0.78rem/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--muted); text-align: center; }
+.cv-dl-note { margin: 0; font: 0.78rem/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--muted); text-align: right; }
  
 /* Sticky section bar (built by cv.js). --cv-top and --cv-offset are set by cv.js
    so the bar sits right under the sticky site menu, whatever its height. */
@@ -363,7 +363,10 @@ dialog.lightbox img {
 /* Phones: photo + button first, dates above each entry */
 @media (max-width: 700px) {
   .cv-hero { grid-template-columns: 1fr; }
-  .cv-dl { order: -1; width: 100%; max-width: 260px; margin: 0 auto; }
+  .cv-dl { order: -1; width: 100%; max-width: 260px; margin: 0 auto; align-items: center; }
+  .cv-photo img { margin: 0 auto; }
+  .cv-photo figcaption, .cv-dl-note { text-align: center; }
+  .cv-btn { width: 100%; text-align: center; }
   .cv-body .entry {
     grid-template-columns: 1fr;
     grid-template-areas: "date" "title" "place" "details" "desc";

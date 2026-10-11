@@ -9,7 +9,7 @@ divider: Full CV
  
 # ---- Fill these in when you decide ("" = photo hidden / button greyed out) ----
 pdf: ""             # file name inside assets/pdf/ , e.g. Cordoba-Carlos_CV.pdf
-photo: SelfieMath.jpeg           # file name inside assets/img/ , e.g. cv.jpg
+photo: SelfieMath.jpeg   # file name inside assets/img/ , e.g. cv.jpg
 photo_alt: "Carlos Córdoba Caycedo"
 photo_caption: "One picture from the back of Hamilton Hall, McMaster University."
 updated: "October 2026"
