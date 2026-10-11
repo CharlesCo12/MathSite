@@ -6,6 +6,7 @@ description: A personal website for Carlos Cordoba-Caycedo, a model mathematicia
 
 # Dimensions
 max_width: 920px
+timezone: America/Toronto
 
 # IMPORTANT for links:
 #  - If your repo is named  <username>.github.io   ->  keep baseurl EMPTY ("")
@@ -14,7 +15,7 @@ max_width: 920px
 baseurl: "/Test.github.io"
 
 footer_text: >
-  Last Updated: {{ site.time | date: "%Y-%m-%d" }}.
+  Last Updated: {{ site.time | date: "%B %-d, %Y" }}.
   This website is built with Jekyll and hosted on GitHub Pages. The source code is available on GitHub.
 
 # Markdown engine options (kramdown is Jekyll's default).
