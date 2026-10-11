@@ -7,7 +7,7 @@ heading: Research and Publications
 subtitle: What do I enjoy investigating?
 
 photo: PresentationAndes.jpeg
-photo_alt: Profile picture
+photo_alt: Presentation Universidad de Los Andes
 caption: |
   <p>Presentation at Universidad de Los Andes as Visiting Researcher.</p>
   <p>September, 2025.</p>

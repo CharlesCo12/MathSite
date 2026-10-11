@@ -175,3 +175,24 @@ main::after { content: ""; display: block; clear: both; }  /* footer stays below
 @media (max-width: 900px) {
   .hero { --photo-width: 300px; }
 }
+
+/* ------------------------------------------------------------------
+   Entries layout: CV-style course/position blocks
+   ------------------------------------------------------------------ */
+.entry {
+  margin: 1.4rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--rule);
+}
+.entry-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;                 /* date drops below the title on narrow screens */
+  gap: 0.2rem 1rem;
+}
+.entry-title   { font-weight: bold; }
+.entry-date    { color: var(--muted); white-space: nowrap; }
+.entry-place   { font-style: italic; }
+.entry-details { color: var(--muted); font-size: 0.95rem; }
+.entry-desc    { margin-top: 0.5rem; }

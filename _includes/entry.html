@@ -1,0 +1,15 @@
+<div class="entry">
+<div class="entry-head">
+<span class="entry-title">{{ include.title }}</span>
+<span class="entry-date">{{ include.date }}</span>
+</div>
+{%- if include.place and include.place != "" %}
+<div class="entry-place">{{ include.place }}</div>
+{%- endif %}
+{%- if include.details and include.details != "" %}
+<div class="entry-details">{{ include.details }}</div>
+{%- endif %}
+{%- if include.desc and include.desc != "" %}
+<div class="entry-desc">{{ include.desc }}</div>
+{%- endif %}
+</div>
