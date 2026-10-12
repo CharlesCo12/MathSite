@@ -1,6 +1,8 @@
 ---
 title: Home
 layout: landing
+seo_title: "Carlos Córdoba Caycedo – Mathematician, McMaster University"        # title shown in Google and the browser tab
+description: "Personal website of Carlos Miguel Córdoba Caycedo, PhD candidate in mathematics at McMaster University working in model theory: valued fields, pseudofinite structures and o-minimality."
 
 heading: Welcome around everyone!
 subtitle: Greetings, Earthlings!

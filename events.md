@@ -1,6 +1,8 @@
 ---
 title: Events
 layout: landing
+seo_title: "Events and Conferences – Carlos Córdoba Caycedo"        # title shown in Google and the browser tab
+description: "Conferences, workshops, seminars and organizing roles of Carlos Córdoba Caycedo, including the Joint Waterloo-McMaster Logic Seminar and the Casual Math Seminar."
 permalink: /events/
 
 heading: Events and Conferences

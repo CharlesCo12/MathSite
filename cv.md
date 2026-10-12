@@ -1,6 +1,8 @@
 ---
 title: CV
 layout: cv
+seo_title: "CV – Carlos Córdoba Caycedo, Mathematics"        # title shown in Google and the browser tab
+description: "Curriculum vitae of Carlos Miguel Córdoba Caycedo: education, research, teaching, talks, conferences, awards and professional experience."
 permalink: /CV/
  
 heading: Curriculum Vitae

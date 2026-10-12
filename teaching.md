@@ -1,6 +1,8 @@
 ---
 title: Teaching
 layout: landing
+seo_title: "Teaching – Carlos Córdoba Caycedo, Mathematics"        # title shown in Google and the browser tab
+description: "Teaching philosophy and experience of Carlos Córdoba Caycedo at McMaster University: courses taught as instructor, and tutorial and teaching assistant work."
 permalink: /teaching/
 
 heading: Teaching Experience

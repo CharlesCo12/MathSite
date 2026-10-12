@@ -1,6 +1,8 @@
 ---
 title: Random
 layout: landing
+seo_title: "Random – Carlos Córdoba Caycedo, Mathematics"        # title shown in Google and the browser tab
+description: "Hobbies and photos from Carlos Córdoba Caycedo: football, Formula 1, gaming, Dungeons & Dragons and adventures around the world."
 permalink: /random/
 
 heading: Miscellaneous

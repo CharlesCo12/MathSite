@@ -2,10 +2,31 @@
 # so restart `jekyll serve` after editing it.
 
 title: Carlos Cordoba Caycedo, Mathematics.
-description: A personal website for Carlos Cordoba Caycedo, a "model" mathematician.
+description: "Personal website of Carlos Miguel Córdoba Caycedo, PhD candidate in mathematics at McMaster University working in model theory: research, CV, teaching and events."
 
 # Dimensions
 timezone: America/Toronto
+
+# ---- Search engines (SEO) ------------------------------------------------
+# Full address of the site WITHOUT the /MathSite part (that one is baseurl, below).
+url: "https://charlesco12.github.io"
+ 
+# Google Search Console: paste ONLY the code from the verification tag
+#   <meta name="google-site-verification" content="THIS-CODE">
+# between the quotes, then publish. Leave "" until you have it.
+google_verification: ""
+ 
+# Other profiles of you on the web (helps Google connect them to this site).
+# Add your own links, one per line, e.g. LinkedIn, ORCID, Google Scholar.
+profile_links:
+  - "https://github.com/CharlesCo12"
+  - "https://www.linkedin.com/in/miguelcordobacaycedo/"
+  # - "https://orcid.org/0000-0000-0000-0000"
+  # - "https://scholar.google.com/citations?user=YOUR-ID"
+ 
+# Plugins supported by GitHub Pages: jekyll-sitemap writes /sitemap.xml for you.
+plugins:
+  - jekyll-sitemap
 
 # IMPORTANT for links:
 #  - If your repo is named  <username>.github.io   ->  keep baseurl EMPTY ("")

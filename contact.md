@@ -1,6 +1,8 @@
 ---
 title: Contact
 layout: landing
+seo_title: "Contact – Carlos Córdoba Caycedo, Mathematics"        # title shown in Google and the browser tab
+description: "How to contact Carlos Córdoba Caycedo, mathematics PhD candidate at McMaster University: email, office location and reply time."
 permalink: /contact/
 
 heading: Contact Me

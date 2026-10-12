@@ -1,6 +1,8 @@
 ---
 title: Research
 layout: landing
+seo_title: "Research – Carlos Córdoba Caycedo, Mathematics"        # title shown in Google and the browser tab
+description: "Research of Carlos Córdoba Caycedo in model theory and mathematical logic: research summary, preprints and talks."
 permalink: /research/
 
 heading: Research and Publications
