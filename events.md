@@ -7,9 +7,9 @@ heading: Events and Conferences
 subtitle: Where have I been?
 
 photo: JointLogicSeminar.jpeg
-photo_alt: Picture of the Joint Waterloo-McMaster Logic Seminar
+photo_alt: Picture of the Waterloo-McMaster Joint Logic Seminar
 caption: |
-  <p>Joint Waterloo-McMaster Logic Seminar.</p>
+  <p>Waterloo-McMaster Joint Logic Seminar.</p>
   <p>January, 2026.</p>
 
 divider: Event organization and conferences
@@ -20,15 +20,13 @@ quote:
     <p>J.K. Rowling, Harry Potter and the Prisoner of Azkaban.</p>
 ---
 
-As a personal statement, I find any kind of event where mathematicians can socialize an incredible opportunity to grow as a researcher and have the chance to meet people who I looked up at some point in my life. In particular, as AI starts appearing in scientific research, I personally believe that **mathematicians must protect and preserve conferences, seminars and short talks as active scientific and social events**. <br>
+As a personal statement, I find any kind of event where mathematicians can socialize an incredible opportunity to grow as a researcher and have the chance to meet people who I looked up to some point in my life. In particular, as AI starts appearing in scientific research, **mathematicians must protect and preserve conferences, seminars and short talks as active scientific and social events**. <br>
 
-Therefore, I have been participating in multiple activities throughout the years and hopefully some of you know me from those conferences and had the chance to enjoy some of my silly jokes. Moreover, I enjoy organizing seminar sessions between different universities, and some informal talks where undergraduate students have the experience of speaking to a broader mathematical audience. <br>
+Over the years, I have taken part in many events, and hopefully some of you know me from them (and from my silly jokes). Moreover, I enjoy organizing seminar sessions between different universities, and some informal talks where undergraduate students have the experience of speaking to a broader mathematical audience. <br>
 
-At this moment, I serve as **co-organizer of the Joint Waterloo-McMaster Logic Seminar** alongside Nathan Hart-Hodgson (<a href="https://uwaterloo.ca/math/news/pure-mathematics-graduate-student-tackles-overlooked-animal">see the following news</a>), and as **co-organizer of the Casual Math Seminar** at McMaster University (see the <a href="https://sites.google.com/view/casual-math-seminar/home">Seminar website</a>).
+At this moment, I serve as **co-organizer of the Waterloo-McMaster Joint Logic Seminar** alongside Nathan Hart-Hodgson (<a href="https://uwaterloo.ca/math/news/pure-mathematics-graduate-student-tackles-overlooked-animal">read about his research</a>), and as **co-organizer of the Casual Math Seminar** at McMaster University (see the <a href="https://sites.google.com/view/casual-math-seminar/home">Seminar website</a>).
 
 <!--split-->
-
-## Current Participation
 
 During Fall 2026, I am actively attending the following seminars and colloquia:
 
@@ -36,7 +34,7 @@ During Fall 2026, I am actively attending the following seminars and colloquia:
   <li> <a href="https://www.fields.utoronto.ca/activities/26-27/geometry-and-model-theory-seminar">Geometry and Model Theory Seminar</a>, <a href="https://sites.google.com/view/McMasterAAGS">Algebra and Algebraic Geometry Seminar</a>, Mathematical Colloquium at McMaster University. (Click <a href="https://math.mcmaster.ca/news-events/seminars-colloquia/">here</a> for further information on the colloquium.) </li>
   <li><a href="https://www.fields.utoronto.ca/activities/26-27/mathai">Mathematical AI Seminar</a> organized by the Fields Institute.</li>
   <li><a href="https://sites.google.com/view/casual-math-seminar/home">Casual Math Seminar at McMaster University</a>. (where I serve as a co-organizer)</li>
-  <li>Joint Waterloo-McMaster Joint Logic Seminar at University of Waterloo, and McMaster University. (where I serve as a co-organizer)</li>
+  <li>Waterloo-McMaster Joint Logic Seminar at University of Waterloo, and McMaster University. (where I serve as a co-organizer)</li>
 </ul>
 
 ## Previous events attended
@@ -51,15 +49,15 @@ You probably met me at any of the following events:
 ### Workshops
 - *Workshop on Model Theory, Algebraic Dynamics, and Differential-Algebraic Geometry*, Fields Institute, Toronto, Canada, 2025.
 
-### Summer Schools
+### Seasonal Schools
 - *Summer School on Exponential Fields and Valued Fields in Model Theory*, University of Naples Federico II, Italy, 2025.
 - *Foundations and Frontiers of Probabilistic Proofs Summer Graduate School*, École Polytechnique Fédérale de Lausanne (EPFL), Zürich, Switzerland, 2023.
 
-### Symposiums
+### Symposia
 - *2025 Fields Medal Symposium: Mark Braverman*, Fields Institute, Toronto, Canada, 2025.
 
 ## Service and others
-Other roles that I had at some point include:
+Other roles that I have held include:
 
 - Treasurer, *Latin American Graduate Student Association*, McMaster University, Sept. 2026 &ndash; present.
 - VP of Communications, *Mathematics &amp; Statistics Graduate Society*, McMaster University, Jan. 2024 &ndash; Oct. 2024.

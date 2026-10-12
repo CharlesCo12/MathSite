@@ -18,11 +18,11 @@ quote:
   text: "Little darling, the smiles returning to the faces. Little darling, it seems like years since it's been here."
   source: The Beatles, "Here Comes the Sun".
 ---
-My approach to teaching can be summarized by: <i>Everyone is a good student, it's just a matter of how much people like what they do.</i> As someone who understands the feeling of not being comfortable working on a given topic, I focus on getting students interested in class rather than just giving them the information needed to solve some examinations correctly.<br>
+My approach to teaching can be summarized as: <i>Everyone is a good student; it's just a matter of how they like what they are doing.</i> As someone who understands the feeling of not being comfortable working on a given topic, I focus on getting students interested in class rather than just giving them the information needed to solve some examinations correctly.<br>
 
-Throughout my time as an instructor, I observed different perspectives from students regarding their interest in the lectures: Some of them attended every lecture and stayed until the next professor was walking into the room, whereas other students emailed me right after Christmas asking for extra points to pass the course. Instead of thinking that the first one is a good student and the other is not, I see it differently: **One student found the course interesting, and the other simply did not care**.<br>
+Throughout my time as an instructor, I have observed different perspectives from students regarding their interest in the lectures: some of them attended every lecture and stayed until the next professor was walking into the room, whereas other students emailed me right after Christmas. Instead of thinking that the first one is a good student and the other is not, I see it differently: **One student found the course interesting, and the other had not yet found a reason to care**.<br>
 
-Thus, my goal is to make my courses interesting for all my students and to share the curiosity that underlies my own mathematical career and pass it on to the incoming students who are waiting to be surprised. So, I redirected my lecture structure and class material towards constructing intuition and generating curiosity among students before overwhelming them with formalism and abstraction. In particular, I want them to be able to answer **why something works** instead of simply making it work.<br>
+Thus, my goal is to make my courses interesting for all my students and to share the curiosity that underlies my own mathematical career to the incoming students who are waiting to be surprised. So, I redirected my lecture structure and class material towards constructing intuition and generating curiosity among students before introducing formalism and abstraction. In particular, I want them to be able to answer **why something works** instead of simply making it work.<br>
 
 Below you will find my experience as an instructor and as a teaching assistant.
 
@@ -44,7 +44,7 @@ During my career I have taught 6 courses at McMaster University as a Seasonal In
    date="Spring 2026"
    place="McMaster University, Canada."
    details="Enrollment: 36 students."
-   desc="Introduces multiple integration, line and surface integrals and applications."
+   desc="Introduced multiple integration, line and surface integrals and applications."
 %}
 
 {% include entry.html
@@ -52,7 +52,7 @@ During my career I have taught 6 courses at McMaster University as a Seasonal In
    date="Winter 2026"
    place="McMaster University, Canada."
    details="Enrollment: 27 students. Upper level &amp; graduate course (Math 6NA3)."
-   desc="Develops a numerical approach to solutions of ODEs and simple PDEs using MATLAB."
+   desc="Developed a numerical approach to solutions of ODEs and simple PDEs using MATLAB."
 %}
 
 {% include entry.html
@@ -64,7 +64,7 @@ During my career I have taught 6 courses at McMaster University as a Seasonal In
 %}
 
 {% include entry.html
-   title="Calculus for science I &ndash; Math 1A03"
+   title="Calculus for Science I &ndash; Math 1A03"
    date="Fall 2024"
    place="McMaster University, Canada."
    details="Enrollment: 190 students."
@@ -79,7 +79,7 @@ During my career I have taught 6 courses at McMaster University as a Seasonal In
    desc="Topics included solutions of higher order linear ODEs, Laplace transformation and series solutions."
 %}
 
-## Teaching Assistanships
+## Teaching Assistantships
 
 I have previously led tutorial sessions, office hours and marking for the following courses:
 <ul>

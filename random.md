@@ -20,15 +20,15 @@ quote:
   source: Janus (God of Portals and Transitions).
     <p>Hi-Rez Studios, SMITE 2.</p>
 ---
-Outside of academia, I enjoy plenty of different things that span from sports and hobbies, to gaming and adventuring around our incredible world. Some of my favourite hobbies and side activities include the following:
+Outside of academia, I enjoy plenty of different things that range from sports and hobbies to gaming and adventuring around our incredible world. Some of my favourite hobbies and side activities include the following:
 
-- Enjoying football matches (**I refuse to call it soccer**) of Colombia or the best team in the world, [Chelsea FC](https://www.chelseafc.com/en).
-- As a F1 fan, watching cars going pretty fast in interesting circuits or boring street circuits is one of the best ways to enjoy the weekends. In case you ask, I am a Ferrari Fan as you could see later in some pictures.
-- Gaming has been a core part of my personality, so that is something I enjoy doing with my friends or by myself. (**Fun Fact:** I was a professional [Smite](https://www.smite2.com/) player at some point in my life, and **this page's quote is from my favourite character**.) In case you want to play around, we could discuss about it!
-- Exploring and adventuring in real life and as a DND character are two of my favourite activites to run. However, I have to admit I have more luck in one of the two. **I will leave the decision of which as an exercise to the reader.**
-- In case you have a pet, I will likely spend to much time playing with them! So this is a short heads up.
+- Watching football matches (**I refuse to call it soccer**) of Colombia or the best team in the world, [Chelsea FC](https://www.chelseafc.com/en).
+- As an F1 fan, watching cars going pretty fast in interesting circuits or boring street circuits is one of the best ways to enjoy the weekends. In case you ask, I am a Ferrari fan as you could see later in some pictures.
+- Gaming has been a core part of my personality, so that is something I enjoy doing with my friends or by myself. (**Fun Fact:** I was a professional [Smite](https://www.smite2.com/) player at some point in my life, and **this page's quote is from my favourite character**.) In case you want to play around, I’m always up for a game together!
+- Exploring and adventuring in real life and as a D&D character are two of my favourite activities to do. However, I have to admit I have more luck in one of the two. **I will leave the decision of which as an exercise to the reader.**
+- In case you have a pet, I will likely spend too much time playing with them! So this is a short heads up.
 
 <!--split-->
-Hover over a photo to see its title, and click it to open it with a short description.
+Tap or click a photo to open it with a short description.
 
 {% include gallery.html %}

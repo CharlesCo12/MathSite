@@ -15,13 +15,13 @@
 # in each photo: replace them with your own words.
 
 - file: Valorant1.jpeg
-  title: Selfie with Killjoy's torret.
-  desc: A selfie with Killjoy's torret in Valorant at Valorant Masters 2025 in Toronto, Canada.
+  title: Selfie with Killjoy's turret.
+  desc: A selfie with Killjoy's turret in Valorant at Valorant Masters 2025 in Toronto, Canada.
   pos: "50% 50%"
 
 - file: Cat.jpeg
   title: Sunbathing
-  desc: The Math department's cat in Universidad de Los Andes.
+  desc: The Math department's cat at Universidad de Los Andes.
 
 - file: Climbing.jpeg
   title: A llama with a view
@@ -29,8 +29,8 @@
   pos: "50% 55%"
 
 - file: Marker&Me.jpeg
-  title: Selfie with David Marker
-  desc: Selfie with David Marker who was kind enough to pose with me.
+  title: Selfie with David Marker (UIC)
+  desc: Selfie with David Marker (UIC), who was kind enough to pose with me.
   pos: "50% 30%"
 
 - file: Ferrari.jpeg
@@ -63,9 +63,10 @@
   desc: Drawing of my D&D character by one of my players. My character's name is Dr. Caros, a druid who is permanently stuck in a cat form.
   pos: "50% 35%"
 
-- file: CatsSpeissegger.jpeg
-  title: Two cats on the stairs
-  desc: Dr. Speissegger's cats on the stairs of his home after Christmas dinner.
+- file: Animals1.jpeg
+  title: A little squirrel
+  desc: A little squirrel I saw while waiting for the bus at McMaster University in Hamilton, Canada.
+  pos: "50% 50%"
 
 - file: Valorant2.jpeg
   title: My real Valorant player card
@@ -74,15 +75,30 @@
 
 - file: CatSLALM.jpeg
   title: Selfie with the official cat of the SLALM XX
-  desc: Selfie with the official cat of the SLALM XX, a conference on logic and algebra in mathematics, held in Montevideo, Uruguay in 2023.
+  desc: Selfie with the official cat of the SLALM XX, Latin American Symposium on Mathematical Logic XX, held in Montevideo, Uruguay in 2024.
   pos: "50% 55%"
 
 - file: PolePos.jpeg
-  title: Pole position in the quads race
-  desc: Just me after getting pole position in a quads race in the Dominican Republic. I was the only one who finished the race, so I won by default.
+  title: Pole position in a quad-bike race
+  desc: Just me after getting pole position in a quad-bike race in the Dominican Republic. I was the only one who finished the race, so I won by default.
   pos: "50% 55%"
 
 - file: DND1.jpeg
   title: Dr. Caros and his party in action
   desc: A photo of my D&D character Dr. Caros and his party in action, taken during one session. As always, Dr. Caros leads the way.
   pos: "60% 50%"
+
+- file: Fields.jpeg
+  title: My participation in the Fields Institute's 2025 Workshop on Model Theory
+  desc: A photo took by Dr. Speissegger of my participation in the Fields Institute's 2025 Workshop on Model Theory.
+  pos: "50% 50%"
+
+- file: Teaching1.jpeg
+  title: Scooby-Carlos looking at the blackboard
+  desc: A photo took by one of my students in Fall 2024, showing me looking at the blackboard with my Halloween costume on. 
+  pos: "50% 50%"
+
+- file: Teaching3.jpeg
+  title: Scooby-Carlos full costume in action
+  desc: A photo took by one of my students in Fall 2024, showing me in full Scooby-Doo facing them during the lecture. Seems that integration was a scary topic for them.
+  pos: "50% 50%"

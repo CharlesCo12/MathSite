@@ -7,7 +7,7 @@ layout: default
   Front matter used here:
     heading        big title               (falls back to page.title)
     subtitle       line under the title
-    pdf            file name inside /assets/pdf/   ("" = button greyed out)
+    pdf            file name inside /assets/docs/   ("" = button greyed out)
     photo          file name inside /assets/img/   ("" = no photo)
     photo_alt      text for screen readers
     photo_caption  small text under the photo (optional)
@@ -43,7 +43,7 @@ layout: default
 
     <div class="cv-download">
       {% if has_pdf %}
-      <a class="cv-btn" href="{{ page.pdf | prepend: '/assets/pdf/' | relative_url }}" download>Download CV (PDF)</a>
+      <a class="cv-btn" href="{{ page.pdf | prepend: '/assets/docs/' | relative_url }}" download>Download CV (PDF)</a>
       {% else %}
       <span class="cv-btn is-disabled" aria-disabled="true" title="The PDF has not been added yet">Download CV (PDF)</span>
       {% endif %}

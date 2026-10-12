@@ -10,7 +10,7 @@ photo: PresentationAndes.jpeg
 photo_alt: Presentation Universidad de Los Andes
 caption: |
   <p>Presentation at Universidad de Los Andes as Visiting Researcher.</p>
-  <p>September, 2025.</p>
+  <p>Fall 2025.</p>
 
 divider: Publications and presentations
 
@@ -19,11 +19,11 @@ quote:
   source: Jules Verne, "From the Earth to the Moon".
 ---
 
-My research interests lie in **model theory** and **mathematical logic**, especially their applications to **algebraic and analytic structures**, mainly valued fields, abelian groups, metric spaces and algebraically/real closed fields. These objects are the main topic of interest in multiple areas of mathematics.<br>
+My research interests lie in **model theory** and **mathematical logic**, especially their applications to **algebraic and analytic structures**, mainly valued fields, abelian groups, metric spaces and algebraically/real closed fields. These are central objects of study in several areas of mathematics.<br>
 
 Across these multiple contexts, a recurring question characterizes my work: <i>how does the definable structure of an object (the equivalence relations it admits, its approximability by finite structures, or the geometric tameness of definable sets) constrain its model-theoretic and algebraic behavior?</i> For example, eliminating imaginaries in extensions of $$\text{ACVF}$$ asks this at the level of definable quotients; classifying pseudofinite abelian groups and studying the Urysohn sphere ask it at the level of approximation by finite (or finite-metric) structures; and constructing o-minimal expansions by asymptotic germs asks it at the level of geometric tameness of definable sets.<br>
 
-In summary, my research has typically leaned towards classification results or transferring results that characterize this constraint, by adapting techniques from __group theory, differential field theory, topology, and analysis__. Some of my previous and ongoing work is described in my **research statement**. (<i>Still finishing!</i>)
+In summary, my research has typically leaned towards classification and transfer results that characterize this constraint, by adapting techniques from __group theory, differential field theory, topology, and analysis__. <!--A more detailed description of my ongoing work is described in my **research statement**.-->
 
 <!--split-->
 
@@ -31,10 +31,12 @@ In summary, my research has typically leaned towards classification results or t
 In this section you can find my published papers and preprints, please feel free to [contact]({{ '/contact/' | relative_url }}) me in case you have any inquiries.
 
 ### Preprints
-(<i>Still finishing!</i>)
+
+- Cordoba-Caycedo, C., and Garcia, D. *Pseudofinite abelian groups and exact classes of finite abelian groups.* [arXiv:2610.13770](https://arxiv.org/abs/2610.13770) [math.LO], 2026.
 
 ## Presentations
-A summary of my latest presentations, slides are available upon request. (See [contact]({{ '/contact/' | relative_url }}) page to get in touch)
+Brief summary of my latest presentations. Slides are available upon request. (See [contact]({{ '/contact/' | relative_url }}) page to get in touch)
+
 ### Invited Conference Talks
 <ul>
   <li><em>Elimination of imaginaries in algebraically closed valued fields with analytic and differential structure.</em> <a href="https://slalm21.uniandes.edu.co/en/">XXI Latin American Symposium on Mathematical Logic (SLALM)</a>, Universidad de Los Andes, Colombia, 2026.</li>
@@ -43,7 +45,7 @@ A summary of my latest presentations, slides are available upon request. (See [c
 
 ### Seminar and University Talks
 <ul>
-  <li><em>Classification of pseudofinite Abelian Groups and exact classes of finite abelian groups.</em> <a href="https://math.mcmaster.ca/events/model-theory-seminar-carlos-cordoba-mcmaster-university/"> Model Theory seminar</a>, McMaster University, Canada, 2025.</li>
+  <li><em>Classification of pseudofinite abelian groups and exact classes of finite abelian groups.</em>  <a href="https://math.mcmaster.ca/events/model-theory-seminar-carlos-cordoba-mcmaster-university/">Model Theory seminar</a>, McMaster University, Canada, 2025.</li>
   <li><em>An Introduction to imaginaries in analytic extensions of algebraically closed valued fields.</em> Extraordinary Model Theory seminar, Universidad de Los Andes, Colombia, 2025.</li>
   <li><em>Stable domination in a family of power series fields with analytic structure.</em> <a href="https://math.mcmaster.ca/events/model-theory-seminar-carlos-cardoba-stable-domination-in-a-family-of-power-series-fields-with-analytic-structure/">Model Theory seminar</a>, McMaster University, Canada, 2024.</li>
   <li><em>Unlimited Power: Introduction to pseudofinite structures.</em><a href="https://math.mcmaster.ca/events/casual-seminar-carlos-cordoba/"> Casual Math seminar</a>, McMaster University, Canada, 2023.</li>

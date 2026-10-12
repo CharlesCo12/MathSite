@@ -8,7 +8,7 @@ subtitle: Carlos Miguel Córdoba Caycedo
 divider: Full CV
  
 # ---- Fill these in when you decide ("" = photo hidden / button greyed out) ----
-pdf: ""             # file name inside assets/pdf/ , e.g. Cordoba-Carlos_CV.pdf
+pdf: "Cordoba-Caycedo_Carlos_CV_2026.pdf"       # file name inside assets/docs/ , e.g. Cordoba-Carlos_CV.pdf
 photo: SelfieMath.jpeg   # file name inside assets/img/ , e.g. cv.jpg
 photo_alt: "Carlos Córdoba Caycedo"
 photo_caption: "One picture from the back of Hamilton Hall, McMaster University."
@@ -22,7 +22,7 @@ facts:
   - label: Nationality
     value: Colombian
   - label: Office
-    value: "Hamilton Hall 303, Department of Mathematics &amp; Statistics, McMaster University, Hamilton, ON L8S 4L8, Canada"
+    value: "Hamilton Hall 303, Department of Mathematics &amp; Statistics, McMaster University, Hamilton, ON L8S 4L8, Canada."
 ---
  
 Below is my full CV, split into the same sections as the PDF. Use the section bar to jump around, or download the PDF to keep a copy or share it.
@@ -43,7 +43,7 @@ Below is my full CV, split into the same sections as the PDF. Use the section ba
    title="B.Sc. in Mathematics"
    date="Aug. 2017 &ndash; May 2021"
    place="Universidad de Los Andes, Colombia."
-   details="Advisors: Dr. Darío Garcia and Dr. John Goodrick"
+   details="Advisors: Dr. Darío García and Dr. John Goodrick"
    desc="Thesis: <em>Classification of Pseudofinite Abelian Groups.</em>"
 %}
  
@@ -58,7 +58,7 @@ Below is my full CV, split into the same sections as the PDF. Use the section ba
 ## Research and Publications
 {: data-short="Research"}
  
-### Research Interest
+### Research Interests
  
 Model theory (especially applications of model theory to algebraic structures), valued fields (with analytic structure), pseudofinite groups, differential algebra, o-minimality and continuous model theory.
  
@@ -68,7 +68,7 @@ Model theory (especially applications of model theory to algebraic structures), 
    title="Model theory research group"
    date="Sept. 2022 &ndash; Present"
    place="McMaster University, Canada."
-   details="Weekly seminar participant. Co-organizer of the Joint McMaster-Waterloo Model Theory Seminar."
+   details="Weekly seminar participant. Co-organizer of the Waterloo-McMaster Joint Logic Seminar."
 %}
  
 {% include entry.html
@@ -93,17 +93,19 @@ Model theory (especially applications of model theory to algebraic structures), 
 %}
  
 ### Papers and Preprints
- 
+
+**Pre-Prints**
+- Cordoba-Caycedo, C., and Garcia, D. *Pseudofinite abelian groups and exact classes of finite abelian groups.*
+
 **In preparation**
  
 - Cordoba-Caycedo, C., and Haskell, D. *Elimination of imaginaries in algebraically closed valued fields with analytic and differential structure.*
-- Cordoba-Caycedo, C., and Garcia, D. *Pseudofinite abelian groups and exact classes of finite abelian groups.*
 - Cordoba-Caycedo, C., and Speissegger, P. *The field of reals with asymmetric multisummable classes.*
 - Hart, B., and Cordoba-Caycedo, C. *The Urysohn sphere is pseudofinite.*
 
 ## Teaching
  
-### Teaching Interest
+### Teaching Interests
  
 Advanced courses in differential equations, numerical methods, model theory or differential algebra. Introductory courses in analysis and calculus. Introduction to computation and data science courses.
  
@@ -140,7 +142,7 @@ During my career I have taught 6 courses at McMaster University, and coordinated
 %}
  
 {% include entry.html
-   title="Calculus for science I &ndash; <span class='code'>Math 1A03</span>"
+   title="Calculus for Science I &ndash; <span class='code'>Math 1A03</span>"
    date="Fall 2024"
    place="McMaster University, Canada."
    details="Enrollment: 190 students."
@@ -198,8 +200,8 @@ Also, lead the following complementary course at Universidad de Los Andes.
  
 - James Stewart Award, Department of Mathematics &amp; Statistics, McMaster University, 2025. ($1,000 CAD for travel expenses)
 - Math &amp; Sciences Graduate Scholarship, Department of Mathematics &amp; Statistics, McMaster University, 2022&ndash;2027. (Yearly funding of $32,000 CAD)
-- Laureate thesis distinction, Mathematics, Universidad de Los Andes, 2021.
-- Laureate thesis distinction, Physics, Universidad de Los Andes, 2020.
+- Laureate thesis distinction (highest distinction), Mathematics, Universidad de Los Andes, 2021.
+- Laureate thesis distinction (highest distinction), Physics, Universidad de Los Andes, 2020.
 - Winner, National Mathematics Contest “Supérate con el Saber”, Colombia, 2014.
 
 ## Lectures and Presentations
@@ -212,7 +214,7 @@ Also, lead the following complementary course at Universidad de Los Andes.
 
 ### Seminar and University Talks
  
-- *Classification of pseudofinite Abelian Groups and exact classes of finite abelian groups.* Model Theory seminar, McMaster University, Canada, 2025.
+- *Classification of pseudofinite abelian groups and exact classes of finite abelian groups.* Model Theory seminar, McMaster University, Canada, 2025.
 - *An Introduction to imaginaries in analytic extensions of algebraically closed valued fields.* Extraordinary Model Theory seminar, Universidad de Los Andes, Colombia, 2025.
 - *Stable domination in a family of power series fields with analytic structure.* Model Theory seminar, McMaster University, Canada, 2024.
 - *Unlimited Power: Introduction to pseudofinite structures.* Casual Math seminar, McMaster University, Canada, 2023.
@@ -240,7 +242,7 @@ Also, lead the following complementary course at Universidad de Los Andes.
 - *Summer School on Exponential Fields and Valued Fields in Model Theory*, University of Naples Federico II, Italy, 2025.
 - *Foundations and Frontiers of Probabilistic Proofs Summer Graduate School*, École Polytechnique Fédérale de Lausanne (EPFL), Zürich, Switzerland, 2023.
 
-### Symposiums
+### Symposia
  
 - *2025 Fields Medal Symposium: Mark Braverman*, Fields Institute, Toronto, Canada, 2025.
 
@@ -271,7 +273,7 @@ Also, lead the following complementary course at Universidad de Los Andes.
    title="Big Data Assistant"
    date="June 2021 &ndash; Nov. 2021"
    place="Lean Solutions Group, Colombia."
-   details="Pioneer on the data analysis team for the company."
+   details="Founding member of the data analysis team."
 %}
  
 ## Software and Languages
@@ -287,4 +289,4 @@ Also, lead the following complementary course at Universidad de Los Andes.
 ### Languages
  
 - Spanish (Native)
-- English (Advanced)
+- English (Professional proficiency)
