@@ -95,7 +95,7 @@ Model theory (especially applications of model theory to algebraic structures), 
 ### Papers and Preprints
 
 **Pre-Prints**
-- Cordoba-Caycedo, C., and Garcia, D. *Pseudofinite abelian groups and exact classes of finite abelian groups.*
+- Cordoba-Caycedo, C., and Garcia, D. *Pseudofinite abelian groups and exact classes of finite abelian groups.* [arXiv:2610.13770](https://arxiv.org/abs/2610.13770) [math.LO], 2026.
 
 **In preparation**
  

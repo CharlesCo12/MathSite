@@ -537,3 +537,12 @@ dialog.gallery-viewer::backdrop { background: rgba(20, 25, 18, 0.92); }
 @media (prefers-reduced-motion: reduce) {
   .gallery .tile img, .gallery .cap { transition: none; }
 }
+
+/* Justified paragraphs and lists in the main text areas */
+.hero-text p, .hero-text li,
+.landing-body p, .landing-body li,
+.cv-hero-text p,
+.cv-body p, .cv-body li, .entry-desc {
+  text-align: justify;
+  hyphens: auto;   /* breaks long words at line ends; uses lang="en", already set in your layout */
+}
