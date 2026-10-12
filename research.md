@@ -34,7 +34,7 @@ In this section you can find my published papers and preprints, please feel free
 
 ### Preprints
 
-- Cordoba-Caycedo, C., and Garcia, D. *Pseudofinite abelian groups and exact classes of finite abelian groups.* [arXiv:2610.13770](https://arxiv.org/abs/2610.13770) [math.LO], 2026.
+- Cordoba-Caycedo, C., and Garcia, D. *Pseudofinite abelian groups and asymptotic classes of finite abelian groups.* [arXiv:2610.13770](https://arxiv.org/abs/2610.13770) [math.LO], 2026.
 
 ## Presentations
 Brief summary of my latest presentations. Slides are available upon request. (See [contact]({{ '/contact/' | relative_url }}) page to get in touch)
