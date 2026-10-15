@@ -1,8 +1,8 @@
 ---
 title: Home
 layout: landing
-seo_title: "Carlos Córdoba Caycedo – Mathematician, McMaster University"        # title shown in Google and the browser tab
-description: "Personal website of Carlos Miguel Córdoba Caycedo, PhD candidate in mathematics at McMaster University working in model theory: valued fields, pseudofinite structures and o-minimality."
+seo_title: "Carlos Cordoba-Caycedo – Mathematician, McMaster University"        # title shown in Google and the browser tab
+description: "Personal website of Carlos Miguel Cordoba-Caycedo, PhD candidate in mathematics at McMaster University working in model theory: valued fields, pseudofinite structures and o-minimality."
 
 heading: Welcome around everyone!
 subtitle: Greetings, Earthlings!
@@ -23,7 +23,7 @@ quote:
   source: Antoine de Saint-Exupéry
 ---
 
-Thanks for coming over to my website! My name is **Carlos Miguel Cordoba Caycedo**, and I'm a **PhD candidate in mathematics** at [McMaster University](https://math.mcmaster.ca/) working under the main supervision of [Dr. Deirdre Haskell](https://experts.mcmaster.ca/people/haskell) in the <i>elimination of imaginaries in analytic and differential extensions of algebraically closed valued fields.</i><br>
+Thanks for coming over to my website! My name is **Carlos Miguel Cordoba-Caycedo**, and I'm a **PhD candidate in mathematics** at [McMaster University](https://math.mcmaster.ca/) working under the main supervision of [Dr. Deirdre Haskell](https://experts.mcmaster.ca/people/haskell) in the <i>elimination of imaginaries in analytic and differential extensions of algebraically closed valued fields.</i><br>
 
 Previously, I was an undergraduate student at [Universidad de Los Andes](https://www.uniandes.edu.co/) where I received my __B.Sc. in Physics__ under the supervision of [Dr. Jaime Forero-Romero](https://academia.uniandes.edu.co/AcademyCv/je.forero), and my __B.Sc. in Mathematics__ under the supervision of [Dr. Darío García](https://sites.google.com/view/dagarcia/home?authuser=0) and [Dr. John Goodrick](https://sites.google.com/view/john-goodrick/home).<br>
 
